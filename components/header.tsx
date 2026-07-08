@@ -32,25 +32,6 @@ export async function Header() {
               </div>
             </Link>
 
-            <form action="/admin/products" className="relative min-w-[260px] flex-1 sm:max-w-md">
-              <label className="sr-only" htmlFor="admin-search">
-                Search products
-              </label>
-              <input
-                id="admin-search"
-                name="q"
-                type="search"
-                placeholder="Search products..."
-                className="h-11 w-full rounded-xl border border-line bg-mist px-4 pr-11 text-sm outline-none transition focus:border-qpet focus:bg-white focus:ring-2 focus:ring-qpet/15"
-              />
-              <button
-                className="absolute right-3 top-1/2 flex size-7 -translate-y-1/2 items-center justify-center text-ink transition hover:text-qpet-dark"
-                aria-label="Search"
-              >
-                <Search size={18} />
-              </button>
-            </form>
-
             <div className="flex items-center gap-3">
               <Link href="/account" className="btn-secondary py-2.5">
                 <UserRound size={17} />
@@ -151,7 +132,7 @@ export async function Header() {
               <Heart size={19} />
               Wishlist
             </Link>
-            <Link href="/cart" className="flex items-center gap-2 transition hover:text-qpet-dark">
+            <Link href="/cart" className="hidden items-center gap-2 transition hover:text-qpet-dark sm:flex">
               <ShoppingCart size={19} />
               Cart
             </Link>
