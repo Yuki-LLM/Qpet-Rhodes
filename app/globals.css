@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --background: #ffffff;
+  --foreground: #101832;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--foreground);
+  letter-spacing: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+.container-shell {
+  width: min(1440px, calc(100% - 40px));
+  margin-inline: auto;
+}
+
+.field {
+  @apply w-full rounded-lg border border-line bg-white px-4 py-3 text-sm outline-none transition focus:border-qpet focus:ring-2 focus:ring-qpet/15;
+}
+
+.label {
+  @apply text-sm font-medium text-slate-700;
+}
+
+.btn-primary {
+  @apply inline-flex items-center justify-center gap-2 rounded-lg bg-qpet px-5 py-3 text-sm font-semibold text-white transition hover:bg-qpet-dark disabled:cursor-not-allowed disabled:bg-slate-300;
+}
+
+.btn-secondary {
+  @apply inline-flex items-center justify-center gap-2 rounded-lg border border-line bg-white px-5 py-3 text-sm font-semibold text-ink transition hover:border-qpet hover:text-qpet-dark disabled:cursor-not-allowed disabled:text-slate-400;
+}

@@ -1,0 +1,2366 @@
+[
+  {
+    "id": "sample-product-002",
+    "name": "Freeze Dry Australia Calming Support Treats for Cats and Dogs 100g",
+    "slug": "freeze-dry-australia-calming-support-treats-for-cats-and-dogs-100g",
+    "brand": "Freeze Dry Australia",
+    "category": "Freeze-dried treats",
+    "pet_type": "Cat / Dog",
+    "description": "Support your pet’s calm and overall wellbeing with these all-natural Calming Support Treats. Crafted with premium functional ingredients including Emu, Blueberries, L-Theanine, L-Tryptophan, Valerian Root, and Spirulina, this freeze-dried blend helps ease stress and encourage relaxation. Ideal for daily support or stressful moments like vet visits, grooming appointments, car rides, storms, or busy, noisy environments, these treats deliver a gentl...",
+    "image_url": "/product-images/imported/product-002-001.png",
+    "source_url": "https://www.habitatpets.com.au/products/freeze-dry-australia-calming-support-treats-for-cats-and-dogs-100g",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-002-variant-01",
+        "product_id": "sample-product-002",
+        "variant_name": "Default",
+        "price": 22.5,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "id": "sample-product-003",
+    "name": "Freeze Dry Australia Freeze-dried Duck Tenders 80g",
+    "slug": "freeze-dry-australia-freeze-dried-duck-tenders-80g",
+    "brand": "Freeze Dry Australia",
+    "category": "Freeze-dried treats",
+    "pet_type": null,
+    "description": "Duck tenders are freeze dried to preserve the natural flavour and nutrition. Duck Tenders are a premium source of protein, and offer a lean and delicious option for pets of all sizes. Ingredients: 100% Australian Duck Tenders 100% Natural Ingredients Freeze Dry Australia uses 100% natural ingredients. All of the products are preservative free, and grain free. Freeze Dry Technology Freeze-dried pet food preserves the nutritional integrity and flav...",
+    "image_url": "/product-images/imported/product-003-002.png",
+    "source_url": "https://www.pawmrkt.com/products/freeze-dry-australia-freeze-dried-duck-tenders-100g",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-003-variant-01",
+        "product_id": "sample-product-003",
+        "variant_name": "Default",
+        "price": 18.9,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "id": "sample-product-004",
+    "name": "Freeze Dry Australia Kitty Crack Ground Freeze Dried Natural Raw Chicken Breast 100g",
+    "slug": "freeze-dry-australia-kitty-crack-ground-freeze-dried-natural-raw-chicken-breast-100g",
+    "brand": "Freeze Dry Australia",
+    "category": "Freeze-dried treats",
+    "pet_type": null,
+    "description": null,
+    "image_url": "/product-images/imported/product-004-003.png",
+    "source_url": "https://www.habitatpets.com.au/products/freeze-dry-australia-kitty-crack-ground-freeze-dried-natural-raw-chicken-breast-100g",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-004-variant-01",
+        "product_id": "sample-product-004",
+        "variant_name": "Default",
+        "price": 19.15,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "id": "sample-product-005",
+    "name": "Freeze Dry Australia Lamb Green Tripe Natural Treats from Cats and Dogs 80g",
+    "slug": "freeze-dry-australia-lamb-green-tripe-natural-treats-from-cats-and-dogs-80g",
+    "brand": "Freeze Dry Australia",
+    "category": "Freeze-dried treats",
+    "pet_type": "Cat / Dog",
+    "description": "Freeze Dry Australia Lamb Green Tripe – Nature’s Superfood for Pets When Michelin-trained chefs turn their skills to pet nutrition, you get something extraordinary — Freeze Dry Australia , a range of chef-crafted, raw, natural treats made right here in Australia . Their Lamb Green Tripe is a true superfood — high in protein, naturally rich in probiotics, and packed with essential nutrients that support digestion and overall vitality. Each piece i...",
+    "image_url": "/product-images/imported/product-005-004.png",
+    "source_url": "https://www.habitatpets.com.au/products/freeze-dry-australia-lamb-green-tripe-natural-treats-from-cats-and-dogs-80g",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-005-variant-01",
+        "product_id": "sample-product-005",
+        "variant_name": "Default",
+        "price": 17.75,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "id": "sample-product-006",
+    "name": "Freeze Dry Australia Pig Snouts Natural Raw Treat for Dogs 100g",
+    "slug": "freeze-dry-australia-pig-snouts-natural-raw-treat-for-dogs-100g",
+    "brand": "Freeze Dry Australia",
+    "category": "Freeze-dried treats",
+    "pet_type": "Dog",
+    "description": "It’s not every day a pair of Michelin-trained chefs decide to stop cooking for humans and turn their talents towards creating pet treats instead. But that’s the story behind Freeze Dry Australia ! There’s so much to love about these treats. They’re made right here in Australia from only the best natural ingredients, then they're gently freeze dried to extract water for long-lasting, preservative-free nutrition that’ll have your pet hooked. With a...",
+    "image_url": "/product-images/imported/product-006-005.png",
+    "source_url": "https://www.habitatpets.com.au/products/freeze-dry-australia-pig-snouts-natural-raw-treat-for-dogs-100g",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-006-variant-01",
+        "product_id": "sample-product-006",
+        "variant_name": "Default",
+        "price": 17.75,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "id": "sample-product-007",
+    "name": "Freeze Dry Australia Quail Backs Treats for Cats and Dogs 80g",
+    "slug": "freeze-dry-australia-quail-backs-treats-for-cats-and-dogs-80g",
+    "brand": "Freeze Dry Australia",
+    "category": "Freeze-dried treats",
+    "pet_type": "Cat / Dog",
+    "description": "Give your pet a treat that’s as close to nature as it gets. Made from 100% premium Australian quail, these freeze-dried quail backs are gently prepared to lock in nutrients while delivering a light, satisfying crunch. Perfect for both cats and dogs, they support natural chewing instincts, promote dental health, and provide essential minerals—all in a single, clean ingredient. 🐾 Why Pet Parents Love It 100% Single Ingredient Nothing but raw Austra...",
+    "image_url": "/product-images/imported/product-007-006.png",
+    "source_url": "https://www.habitatpets.com.au/products/freeze-dry-australia-quail-backs-treats-for-cats-and-dogs-80g",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-007-variant-01",
+        "product_id": "sample-product-007",
+        "variant_name": "Default",
+        "price": 17.5,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "id": "sample-product-008",
+    "name": "Freeze Dry Australia Treats Beef & Sardine Balls 100g - Cat & Dog",
+    "slug": "freeze-dry-australia-treats-beef-and-sardine-balls-100g-cat-and-dog",
+    "brand": "Freeze Dry Australia",
+    "category": "Freeze-dried treats",
+    "pet_type": "Cat / Dog",
+    "description": "Packed with all the good stuff you can get from Beef + superfoods such as Kale, Pumpkin and fruits (Apple), your pets are going to go nuts for these all rounded nutritious beauties.",
+    "image_url": "/product-images/imported/product-008-007.png",
+    "source_url": "https://www.pawmrkt.com/products/freeze-dry-australia-cat-dog-100-beef-sardine-balls-100g",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-008-variant-01",
+        "product_id": "sample-product-008",
+        "variant_name": "Default",
+        "price": 18.9,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "id": "sample-product-009",
+    "name": "Freeze Dry Australia Treats Beef Chews 150g - Cat & Dog",
+    "slug": "freeze-dry-australia-treats-beef-chews-150g-cat-and-dog",
+    "brand": "Freeze Dry Australia",
+    "category": "Freeze-dried treats",
+    "pet_type": "Cat / Dog",
+    "description": "Founded by two Michelin-trained chefs with over 30 years of experience, Freeze Dry Australia marries the finest livestock and ingredients sourced from all over Australia with the best freeze-drying methods to produce exquisite pet foods and treats that are wholesome, nutrient-rich, highly palatable, and completely free of artificial preservatives. This Australian-made pet food brand utilises a gentle yet effective freeze-drying process that retai...",
+    "image_url": "/product-images/imported/product-009-008.png",
+    "source_url": "https://www.pawmrkt.com/products/freeze-dry-australia-dog-100-beef-chews-150g",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-009-variant-01",
+        "product_id": "sample-product-009",
+        "variant_name": "Default",
+        "price": 18.9,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "id": "sample-product-010",
+    "name": "Freeze Dry Australia Treats Chicken Breast Chunks 100g - Cat & Dog",
+    "slug": "freeze-dry-australia-treats-chicken-breast-chunks-100g-cat-and-dog",
+    "brand": "Freeze Dry Australia",
+    "category": "Freeze-dried treats",
+    "pet_type": "Cat / Dog",
+    "description": "Founded by two Michelin-trained chefs with over 30 years of experience, Freeze Dry Australia marries the finest livestock and ingredients sourced from all over Australia with the best freeze-drying methods to produce exquisite pet foods and treats that are wholesome, nutrient-rich, highly palatable, and completely free of artificial preservatives. This Australian-made pet food brand utilises a gentle yet effective freeze-drying process that retai...",
+    "image_url": "/product-images/imported/product-010-009.png",
+    "source_url": "https://www.pawmrkt.com/products/freeze-dry-australia-cat-dog-100-diced-chicken-breast-100g",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-010-variant-01",
+        "product_id": "sample-product-010",
+        "variant_name": "Default",
+        "price": 18.9,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "id": "sample-product-011",
+    "name": "Freeze Dry Australia Treats Chicken Hearts 100g - Cat & Dog",
+    "slug": "freeze-dry-australia-treats-chicken-hearts-100g-cat-and-dog",
+    "brand": "Freeze Dry Australia",
+    "category": "Freeze-dried treats",
+    "pet_type": "Cat / Dog",
+    "description": "Founded by two Michelin-trained chefs with over 30 years of experience, Freeze Dry Australia marries the finest livestock and ingredients sourced from all over Australia with the best freeze-drying methods to produce exquisite pet foods and treats that are wholesome, nutrient-rich, highly palatable, and completely free of artificial preservatives. This Australian-made pet food brand utilises a gentle yet effective freeze-drying process that retai...",
+    "image_url": "/product-images/imported/product-011-010.png",
+    "source_url": "https://www.pawmrkt.com/products/freeze-dry-australia-cat-dog-100-raw-chicken-hearts-100g",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-011-variant-01",
+        "product_id": "sample-product-011",
+        "variant_name": "Default",
+        "price": 14.9,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "id": "sample-product-012",
+    "name": "Freeze Dry Australia Treats Chicken Liver 80g - Cat & Dog",
+    "slug": "freeze-dry-australia-treats-chicken-liver-80g-cat-and-dog",
+    "brand": "Freeze Dry Australia",
+    "category": "Freeze-dried treats",
+    "pet_type": "Cat / Dog",
+    "description": "Freeze-Dry Australia’s Chicken Livers are exquisite in taste and nutrition. Made from 100% Chicken Livers, which are renowned for their high protein levels, vitamins and minerals. These snacks are not only nourishing but they are packed full of flavour and pets love their crunchy textures. Chicken Liver is beneficial for your furry friend with low in calories and high in protein and contains essential amino acids. Chicken Livers are excellent for...",
+    "image_url": "/product-images/imported/product-012-011.png",
+    "source_url": "https://www.pawmrkt.com/products/freeze-dry-australia-treats-chicken-liver-80g-cat-dog",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-012-variant-01",
+        "product_id": "sample-product-012",
+        "variant_name": "Default",
+        "price": 18.9,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "id": "sample-product-013",
+    "name": "Freeze Dry Australia Treats Chicken Neck 100g - Cat & Dog",
+    "slug": "freeze-dry-australia-treats-chicken-neck-100g-cat-and-dog",
+    "brand": "Freeze Dry Australia",
+    "category": "Freeze-dried treats",
+    "pet_type": "Cat / Dog",
+    "description": "Freeze Dry Australia Chicken Necks Cat & Dog Treats are single ingredient treats that are gently freeze-dried to retain most of the essential nutrients - your pets will benefit from! Made with all-natural chicken necks, Freeze Dry Australia Chicken Necks Cat & Dog Treats are protein packed; they are highly digestible, ensuring that essential nutrients are absorbed. Freeze Dry Australia Chicken Necks Cat & Dog Treats are also enriched with calcium...",
+    "image_url": "/product-images/imported/product-013-012.png",
+    "source_url": "https://www.pawmrkt.com/products/freeze-dry-australia-cat-dog-100-chicken-neck-100g",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-013-variant-01",
+        "product_id": "sample-product-013",
+        "variant_name": "Default",
+        "price": 14.9,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "id": "sample-product-014",
+    "name": "Freeze Dry Australia Treats Chicken Training Treats 100g - Cat & Dog",
+    "slug": "freeze-dry-australia-treats-chicken-training-treats-100g-cat-and-dog",
+    "brand": "Freeze Dry Australia",
+    "category": "Freeze-dried treats",
+    "pet_type": "Cat / Dog",
+    "description": "These bite-size treats are made of 100% chicken breast and chicken thigh - perfect size to train your cat or dog without filling them up, they will still have room for their main meal.",
+    "image_url": "/product-images/imported/product-014-013.png",
+    "source_url": "https://www.pawmrkt.com/products/freeze-dry-australia-cat-dog-100-chicken-training-treats-100g",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-014-variant-01",
+        "product_id": "sample-product-014",
+        "variant_name": "Default",
+        "price": 18.9,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "id": "sample-product-015",
+    "name": "Freeze Dry Australia Treats Crocodile Bites 70g - Cat & Dog",
+    "slug": "freeze-dry-australia-treats-crocodile-bites-70g-cat-and-dog",
+    "brand": "Freeze Dry Australia",
+    "category": "Freeze-dried treats",
+    "pet_type": "Cat / Dog",
+    "description": "Crocodile meat contains a rich natural source of glucosamine, chondroitin and calcium to assist dogs and cats with joint, oral and bone support. 100% crocodile meat. Crocodile is a Advanced Novel Protein that can assist dogs and cats with low to acute allergies or illnesses such as: Dermatitis Food Aversion Pancreatitis Hyperlipidaemia Food intolerance IBD Diabetes",
+    "image_url": "/product-images/imported/product-015-014.png",
+    "source_url": "https://www.pawmrkt.com/products/freeze-dry-australia-cat-dog-100-crocodile-bites-70g",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-015-variant-01",
+        "product_id": "sample-product-015",
+        "variant_name": "Default",
+        "price": 23.9,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "id": "sample-product-016",
+    "name": "Freeze Dry Australia Treats Diced Lamb Hearts 100g - Cat & Dog",
+    "slug": "freeze-dry-australia-treats-diced-lamb-hearts-100g-cat-and-dog",
+    "brand": "Freeze Dry Australia",
+    "category": "Freeze-dried treats",
+    "pet_type": "Cat / Dog",
+    "description": "Founded by two Michelin-trained chefs with over 30 years of experience, Freeze Dry Australia marries the finest livestock and ingredients sourced from all over Australia with the best freeze-drying methods to produce exquisite pet foods and treats that are wholesome, nutrient-rich, highly palatable, and completely free of artificial preservatives. This Australian-made pet food brand utilises a gentle yet effective freeze-drying process that retai...",
+    "image_url": "/product-images/imported/product-016-015.png",
+    "source_url": "https://www.pawmrkt.com/products/freeze-dry-australia-cat-dog-100-diced-lamb-hearts-100g",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-016-variant-01",
+        "product_id": "sample-product-016",
+        "variant_name": "Default",
+        "price": 14.9,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "id": "sample-product-017",
+    "name": "Freeze Dry Australia Treats Emu Cookie 100g",
+    "slug": "freeze-dry-australia-treats-emu-cookie-100g",
+    "brand": "Freeze Dry Australia",
+    "category": "Freeze-dried treats",
+    "pet_type": null,
+    "description": "Freeze Dry Australia’s Emu Cookie, is a gourmet delight made from 100% Emu meat. Emu meat is known for its lean profile and rich flavour, making it a healthy and satisfying treat for pets. The Emu Cookie offers a crunchy texture that promotes dental health while providing a protein-rich snack that dogs and cats alike will crave. This meat is high in protein, vitamin C, and iron, all of which your pup needs to live a happy dog life. Emu meat is al...",
+    "image_url": "/product-images/imported/product-017-016.png",
+    "source_url": "https://www.pawmrkt.com/products/freeze-dry-australia-treats-emu-cookie-100g",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-017-variant-01",
+        "product_id": "sample-product-017",
+        "variant_name": "Default",
+        "price": 23.9,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "id": "sample-product-018",
+    "name": "Freeze Dry Australia Treats Kangaroo Cookie 100g - Cat & Dog",
+    "slug": "freeze-dry-australia-treats-kangaroo-cookie-100g-cat-and-dog",
+    "brand": "Freeze Dry Australia",
+    "category": "Freeze-dried treats",
+    "pet_type": "Cat / Dog",
+    "description": "Founded by two Michelin-trained chefs with over 30 years of experience, Freeze Dry Australia marries the finest livestock and ingredients sourced from all over Australia with the best freeze-drying methods to produce exquisite pet foods and treats that are wholesome, nutrient-rich, highly palatable, and completely free of artificial preservatives. This Australian-made pet food brand utilises a gentle yet effective freeze-drying process that retai...",
+    "image_url": "/product-images/imported/product-018-017.png",
+    "source_url": "https://www.pawmrkt.com/products/freeze-dry-australia-cat-dog-100-kangaroo-cookie-100g",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-018-variant-01",
+        "product_id": "sample-product-018",
+        "variant_name": "Default",
+        "price": 18.9,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "id": "sample-product-019",
+    "name": "Freeze Dry Australia Treats Kangaroo Liver 100g - Cat & Dog",
+    "slug": "freeze-dry-australia-treats-kangaroo-liver-100g-cat-and-dog",
+    "brand": "Freeze Dry Australia",
+    "category": "Freeze-dried treats",
+    "pet_type": "Cat / Dog",
+    "description": "Founded by two Michelin-trained chefs with over 30 years of experience, Freeze Dry Australia marries the finest livestock and ingredients sourced from all over Australia with the best freeze-drying methods to produce exquisite pet foods and treats that are wholesome, nutrient-rich, highly palatable, and completely free of artificial preservatives. This Australian-made pet food brand utilises a gentle yet effective freeze-drying process that retai...",
+    "image_url": "/product-images/imported/product-019-018.png",
+    "source_url": "https://www.pawmrkt.com/products/freeze-dry-australia-cat-dog-100-kangaroo-liver-100g",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-019-variant-01",
+        "product_id": "sample-product-019",
+        "variant_name": "Default",
+        "price": 14.9,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "id": "sample-product-020",
+    "name": "Freeze Dry Australia Treats Lamb Cookie 100g - Cat & Dog",
+    "slug": "freeze-dry-australia-treats-lamb-cookie-100g-cat-and-dog",
+    "brand": "Freeze Dry Australia",
+    "category": "Freeze-dried treats",
+    "pet_type": "Cat / Dog",
+    "description": "Founded by two Michelin-trained chefs with over 30 years of experience, Freeze Dry Australia marries the finest livestock and ingredients sourced from all over Australia with the best freeze-drying methods to produce exquisite pet foods and treats that are wholesome, nutrient-rich, highly palatable, and completely free of artificial preservatives. This Australian-made pet food brand utilises a gentle yet effective freeze-drying process that retai...",
+    "image_url": "/product-images/imported/product-020-019.png",
+    "source_url": "https://www.pawmrkt.com/products/freeze-dry-australia-dog-100-lamb-cookie-100g",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-020-variant-01",
+        "product_id": "sample-product-020",
+        "variant_name": "Default",
+        "price": 18.9,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "id": "sample-product-021",
+    "name": "Freeze Dry Australia Treats Pig Snout 100g - Cat & Dog",
+    "slug": "freeze-dry-australia-treats-pig-snout-100g-cat-and-dog",
+    "brand": "Freeze Dry Australia",
+    "category": "Freeze-dried treats",
+    "pet_type": "Cat / Dog",
+    "description": "Makes a great dental chew option! Nature’s toothbrush! A recent addition to our treat offerings the Freeze Dry Australia 100% Pig Snouts make a very tasty addition to our range. A great choice if you are looking for a good dental chew option and is very high in protein. The taste is irresistible.",
+    "image_url": "/product-images/imported/product-021-020.png",
+    "source_url": "https://www.pawmrkt.com/products/freeze-dry-australia-treats-pig-snout-100g-cat-dog",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-021-variant-01",
+        "product_id": "sample-product-021",
+        "variant_name": "Default",
+        "price": 18.9,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "id": "sample-product-022",
+    "name": "Freeze Dry Australia Treats Quail Necks 100g - Cat & Dog",
+    "slug": "freeze-dry-australia-treats-quail-necks-100g-cat-and-dog",
+    "brand": "Freeze Dry Australia",
+    "category": "Freeze-dried treats",
+    "pet_type": "Cat / Dog",
+    "description": "Packed with all the good stuff you can get from Beef + superfoods such as Kale, Pumpkin and fruits (Apple), your pets are going to go nuts for these all rounded nutritious beauties.",
+    "image_url": "/product-images/imported/product-022-021.png",
+    "source_url": "https://www.pawmrkt.com/products/freeze-dry-australia-cat-dog-100-quail-necks-100g",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-022-variant-01",
+        "product_id": "sample-product-022",
+        "variant_name": "Default",
+        "price": 18.9,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "id": "sample-product-023",
+    "name": "Freeze Dry Australia Treats Raw Sardines 80g - Cat & Dog",
+    "slug": "freeze-dry-australia-treats-raw-sardines-80g-cat-and-dog",
+    "brand": "Freeze Dry Australia",
+    "category": "Freeze-dried treats",
+    "pet_type": "Cat / Dog",
+    "description": "Founded by two Michelin-trained chefs with over 30 years of experience, Freeze Dry Australia marries the finest livestock and ingredients sourced from all over Australia with the best freeze-drying methods to produce exquisite pet foods and treats that are wholesome, nutrient-rich, highly palatable, and completely free of artificial preservatives. This Australian-made pet food brand utilises a gentle yet effective freeze-drying process that retai...",
+    "image_url": "/product-images/imported/product-023-022.png",
+    "source_url": "https://www.pawmrkt.com/products/freeze-dry-australia-cat-dog-100-raw-sardines-80g",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-023-variant-01",
+        "product_id": "sample-product-023",
+        "variant_name": "Default",
+        "price": 18.9,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "id": "sample-product-024",
+    "name": "Freeze Dry Australia Treats Salmon Bellies Freeze Dried 100g - Cat & Dog",
+    "slug": "freeze-dry-australia-treats-salmon-bellies-freeze-dried-100g-cat-and-dog",
+    "brand": "Freeze Dry Australia",
+    "category": "Freeze-dried treats",
+    "pet_type": "Cat / Dog",
+    "description": "Prepared with the finest livestock and ingredients from Australia to produced wholesome, nutrient-rich, highly palatable and completely free from artificial preservatives. Freeze Dry Australia manufactures their Freeze Dried cat & dog treats in state-of-the-art facility in Melbourne, Australia that boasts food safety certifications from HACCP and Prime safe to retain its nutritional content, consistency and flavours of the ingredients and ensures...",
+    "image_url": "/product-images/imported/product-024-023.png",
+    "source_url": "https://www.pawmrkt.com/products/freeze-dry-australia-treats-salmon-bellies-freeze-dried-100g-cat-dog",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-024-variant-01",
+        "product_id": "sample-product-024",
+        "variant_name": "Default",
+        "price": 18.9,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "id": "sample-product-025",
+    "name": "Freeze Dry Australia Treats Venison Cookie 100g - Cat & Dog",
+    "slug": "freeze-dry-australia-treats-venison-cookie-100g-cat-and-dog",
+    "brand": "Freeze Dry Australia",
+    "category": "Freeze-dried treats",
+    "pet_type": "Cat / Dog",
+    "description": "Founded by two Michelin-trained chefs with over 30 years of experience, Freeze Dry Australia marries the finest livestock and ingredients sourced from all over Australia with the best freeze-drying methods to produce exquisite pet foods and treats that are wholesome, nutrient-rich, highly palatable, and completely free of artificial preservatives. This Australian-made pet food brand utilises a gentle yet effective freeze-drying process that retai...",
+    "image_url": "/product-images/imported/product-025-024.png",
+    "source_url": "https://www.pawmrkt.com/products/freeze-dry-australia-cat-dog-100-venison-cookie-100g",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-025-variant-01",
+        "product_id": "sample-product-025",
+        "variant_name": "Default",
+        "price": 18.9,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "id": "sample-product-026",
+    "name": "Freeze Dry Australia Treats Whole Green Lip Mussels 70g - Cat & Dog",
+    "slug": "freeze-dry-australia-treats-whole-green-lip-mussels-70g-cat-and-dog",
+    "brand": "Freeze Dry Australia",
+    "category": "Freeze-dried treats",
+    "pet_type": "Cat / Dog",
+    "description": "Founded by two Michelin-trained chefs with over 30 years of experience, Freeze Dry Australia marries the finest livestock and ingredients sourced from all over Australia with the best freeze-drying methods to produce exquisite pet foods and treats that are wholesome, nutrient-rich, highly palatable, and completely free of artificial preservatives. This Australian-made pet food brand utilises a gentle yet effective freeze-drying process that retai...",
+    "image_url": "/product-images/imported/product-026-025.png",
+    "source_url": "https://www.pawmrkt.com/products/freeze-dry-australia-cat-dog-100-whole-green-lip-mussels-70g",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-026-variant-01",
+        "product_id": "sample-product-026",
+        "variant_name": "Default",
+        "price": 18.9,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "id": "sample-product-027",
+    "name": "Freeze Dry Australia Turkey Dice Natural Treats for Cats and Dogs 100g",
+    "slug": "freeze-dry-australia-turkey-dice-natural-treats-for-cats-and-dogs-100g",
+    "brand": "Freeze Dry Australia",
+    "category": "Freeze-dried treats",
+    "pet_type": "Cat / Dog",
+    "description": "Freeze Dry Australia Turkey Dice – Pure, Simple, Raw Perfection It’s not every day a pair of Michelin-trained chefs decide to stop cooking for humans and turn their talents towards creating pet treats instead — but that’s the story behind Freeze Dry Australia . Crafted right here in Australia , Turkey Dice are made from 100% real turkey — nothing else. These bite-sized cubes are freeze-dried to perfection , locking in flavour and nutrition while ...",
+    "image_url": "/product-images/imported/product-027-026.png",
+    "source_url": "https://www.habitatpets.com.au/products/freeze-dry-australia-turkey-dice-natural-treats-for-cats-and-dogs-100g",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-027-variant-01",
+        "product_id": "sample-product-027",
+        "variant_name": "Default",
+        "price": 19.75,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "id": "sample-product-028",
+    "name": "Original Air-Dried Beef Recipe for cats",
+    "slug": "original-air-dried-beef-recipe-for-cats",
+    "brand": "ZIWI",
+    "category": "Cat food",
+    "pet_type": "Cat",
+    "description": "Having access to lush fields of grass year-round makes New Zealand free-range, grass-fed beef among the best in the world. What’s more, we only source from ethical farms and farmers. Our single protein recipes are perfect for pets with and sensitive stomachs, and for guardians who want to know exactly what’s going into their pet’s bowl.",
+    "image_url": "/product-images/imported/product-028-027.png",
+    "source_url": "https://ziwipets.com/products/air-dried-beef-recipe-for-cats",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-028-variant-01",
+        "product_id": "sample-product-028",
+        "variant_name": "400g",
+        "price": 29.58,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      },
+      {
+        "id": "sample-product-028-variant-02",
+        "product_id": "sample-product-028",
+        "variant_name": "1kg",
+        "price": 60.18,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 1
+      }
+    ]
+  },
+  {
+    "id": "sample-product-029",
+    "name": "Original Air-Dried Beef Recipe for dogs",
+    "slug": "original-air-dried-beef-recipe-for-dogs",
+    "brand": "ZIWI",
+    "category": "Dog food",
+    "pet_type": "Dog",
+    "description": "A complete, air-dried meal made with 96% beef, organs and New Zealand green mussels - gently air-dried so it delivers maximum nutrition. The ZIWI Peak Air-Dried Difference: Raw ingredients - ethically-sourced ingredients your dog will love Minimally processed - gentle warm air locks in beneficial nutrients Maximum nutrition - unmatched nutrient density with irresistible flavour No compromises - no rendered meats, meals, added grains, potatoes or ...",
+    "image_url": "/product-images/imported/product-029-028.png",
+    "source_url": "https://ziwipets.com/products/air-dried-beef-dog-food",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-029-variant-01",
+        "product_id": "sample-product-029",
+        "variant_name": "454g",
+        "price": 29.58,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      },
+      {
+        "id": "sample-product-029-variant-02",
+        "product_id": "sample-product-029",
+        "variant_name": "1kg",
+        "price": 54.78,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 1
+      },
+      {
+        "id": "sample-product-029-variant-03",
+        "product_id": "sample-product-029",
+        "variant_name": "2.5kg",
+        "price": 129.58,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 2
+      },
+      {
+        "id": "sample-product-029-variant-04",
+        "product_id": "sample-product-029",
+        "variant_name": "4kg",
+        "price": 193.58,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 3
+      }
+    ]
+  },
+  {
+    "id": "sample-product-030",
+    "name": "Original Air-Dried Chicken Recipe for cats",
+    "slug": "original-air-dried-chicken-recipe-for-cats",
+    "brand": "ZIWI",
+    "category": "Cat food",
+    "pet_type": "Cat",
+    "description": "Ethically raised in New Zealand, our free-range chickens have plenty of room to roam and spread their wings. ZIWI Peak Air-dried chicken is a recipe that will make your cat’s eyes widen, and you can feel good about your choice, too.",
+    "image_url": "/product-images/imported/product-030-029.png",
+    "source_url": "https://ziwipets.com/products/air-dried-chicken-recipe-for-cats",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-030-variant-01",
+        "product_id": "sample-product-030",
+        "variant_name": "400g",
+        "price": 29.58,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      },
+      {
+        "id": "sample-product-030-variant-02",
+        "product_id": "sample-product-030",
+        "variant_name": "1kg",
+        "price": 60.18,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 1
+      }
+    ]
+  },
+  {
+    "id": "sample-product-031",
+    "name": "Original Air-Dried Lamb Recipe for cats",
+    "slug": "original-air-dried-lamb-recipe-for-cats",
+    "brand": "ZIWI",
+    "category": "Cat food",
+    "pet_type": "Cat",
+    "description": "New Zealand is famous for its world-class lamb, ethically raised by multi-generational family farmers under perfect conditions. Our temperate climate and lush, nutrient-rich farmland allow the lamb to graze all year round. This single protein food is gently nourishing and great for cats with food sensitivities. ZIWI Peak® Lamb is everything your cat needs to seek adventure, wherever they may find it.",
+    "image_url": "/product-images/imported/product-031-030.png",
+    "source_url": "https://ziwipets.com/products/air-dried-lamb-recipe-for-cats",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-031-variant-01",
+        "product_id": "sample-product-031",
+        "variant_name": "400g",
+        "price": 29.58,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      },
+      {
+        "id": "sample-product-031-variant-02",
+        "product_id": "sample-product-031",
+        "variant_name": "1kg",
+        "price": 60.18,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 1
+      }
+    ]
+  },
+  {
+    "id": "sample-product-032",
+    "name": "Original Air-Dried Lamb Recipe for dogs",
+    "slug": "original-air-dried-lamb-recipe-for-dogs",
+    "brand": "ZIWI",
+    "category": "Dog food",
+    "pet_type": "Dog",
+    "description": "A complete, air-dried meal made with 96% lamb, organs and New Zealand Green Mussel - gently air-dried so it delivers maximum nutrition. The ZIWI Peak Air-Dried Difference: Raw ingredients - ethically-sourced ingredients your dog will love Minimally processed - gentle warm air locks in beneficial nutrients Maximum nutrition - unmatched nutrient density with irresistible flavour No compromises - no rendered meats, meals, added grains, potatoes or l...",
+    "image_url": "/product-images/imported/product-032-031.png",
+    "source_url": "https://ziwipets.com/products/air-dried-lamb-recipe-for-dogs",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-032-variant-01",
+        "product_id": "sample-product-032",
+        "variant_name": "454g",
+        "price": 30.88,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      },
+      {
+        "id": "sample-product-032-variant-02",
+        "product_id": "sample-product-032",
+        "variant_name": "1kg",
+        "price": 56.08,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 1
+      },
+      {
+        "id": "sample-product-032-variant-03",
+        "product_id": "sample-product-032",
+        "variant_name": "2.5kg",
+        "price": 130.88,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 2
+      },
+      {
+        "id": "sample-product-032-variant-04",
+        "product_id": "sample-product-032",
+        "variant_name": "4kg",
+        "price": 193.58,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 3
+      }
+    ]
+  },
+  {
+    "id": "sample-product-033",
+    "name": "Original Air-Dried Mackerel & Lamb Recipe for cats",
+    "slug": "original-air-dried-mackerel-and-lamb-recipe-for-cats",
+    "brand": "ZIWI",
+    "category": "Cat food",
+    "pet_type": "Cat",
+    "description": "In this recipe, lush New Zealand land meets cool, blue, pristine sea. Wild, whole blue mackerel from the remote waters around New Zealand are perfectly paired with North Island grass-fed, free-range lamb. Your cat will love the delicious flavors, and you’ll love the effect it has on their health.",
+    "image_url": "/product-images/imported/product-033-032.png",
+    "source_url": "https://ziwipets.com/products/air-dried-mackerel-and-lamb-cat-food",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-033-variant-01",
+        "product_id": "sample-product-033",
+        "variant_name": "400g",
+        "price": 29.58,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      },
+      {
+        "id": "sample-product-033-variant-02",
+        "product_id": "sample-product-033",
+        "variant_name": "1kg",
+        "price": 60.18,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 1
+      }
+    ]
+  },
+  {
+    "id": "sample-product-034",
+    "name": "Original Air-Dried Mackerel & Lamb Recipe for dogs",
+    "slug": "original-air-dried-mackerel-and-lamb-recipe-for-dogs",
+    "brand": "ZIWI",
+    "category": "Dog food",
+    "pet_type": "Dog",
+    "description": "A complete, air-dried meal made with 96% whole mackerel, lamb, organs and New Zealand Green Mussel - gently air-dried so it delivers maximum nutrition. The ZIWI Peak Air-Dried Difference: Raw ingredients - ethically-sourced ingredients your dog will love Minimally processed - gentle warm air locks in beneficial nutrients Maximum nutrition - unmatched nutrient density with irresistible flavour No compromises - no rendered meats, meals, added grain...",
+    "image_url": "/product-images/imported/product-034-033.png",
+    "source_url": "https://ziwipets.com/products/mackerel-lamb-for-dogs",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-034-variant-01",
+        "product_id": "sample-product-034",
+        "variant_name": "454g",
+        "price": 30.88,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      },
+      {
+        "id": "sample-product-034-variant-02",
+        "product_id": "sample-product-034",
+        "variant_name": "1kg",
+        "price": 53.48,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 1
+      },
+      {
+        "id": "sample-product-034-variant-03",
+        "product_id": "sample-product-034",
+        "variant_name": "2.5kg",
+        "price": 126.78,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 2
+      },
+      {
+        "id": "sample-product-034-variant-04",
+        "product_id": "sample-product-034",
+        "variant_name": "4kg",
+        "price": 193.58,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 3
+      }
+    ]
+  },
+  {
+    "id": "sample-product-035",
+    "name": "Original Air-Dried Tripe & Lamb Recipe for dogs",
+    "slug": "original-air-dried-tripe-and-lamb-recipe-for-dogs",
+    "brand": "ZIWI",
+    "category": "Dog food",
+    "pet_type": "Dog",
+    "description": "A complete, air-dried meal made with 96% lamb tripe, lamb, organs and New Zealand Green Mussel - gently air-dried so it delivers maximum nutrition . The ZIWI Peak Air-Dried Difference: Raw ingredients - ethically-sourced ingredients your dog will love Minimally processed - gentle warm air locks in beneficial nutrients Maximum nutrition - unmatched nutrient density with irresistible flavour No compromises - no rendered meats, meals, added grains, ...",
+    "image_url": "/product-images/imported/product-035-034.png",
+    "source_url": "https://ziwipets.com/products/air-dried-tripe-lamb-dog-food",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-035-variant-01",
+        "product_id": "sample-product-035",
+        "variant_name": "454g",
+        "price": 34.78,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      },
+      {
+        "id": "sample-product-035-variant-02",
+        "product_id": "sample-product-035",
+        "variant_name": "1kg",
+        "price": 60.18,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 1
+      },
+      {
+        "id": "sample-product-035-variant-03",
+        "product_id": "sample-product-035",
+        "variant_name": "2.5kg",
+        "price": 140.28,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 2
+      }
+    ]
+  },
+  {
+    "id": "sample-product-036",
+    "name": "Original Air-Dried Venison Recipe for cats",
+    "slug": "original-air-dried-venison-recipe-for-cats",
+    "brand": "ZIWI",
+    "category": "Cat food",
+    "pet_type": "Cat",
+    "description": "New Zealand’s sweeping coastline and temperate climate make an ideal habitat for free-range, grass-fed venison. They’re ethically raised on pastures of lush native grasses, with plenty of room to roam. As a novel single protein food, ZIWI Peak® venison is ideal for cats with sensitive stomachs.",
+    "image_url": "/product-images/imported/product-036-035.png",
+    "source_url": "https://ziwipets.com/products/air-dried-venison-recipe-for-cats",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-036-variant-01",
+        "product_id": "sample-product-036",
+        "variant_name": "400g",
+        "price": 400.0,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "id": "sample-product-037",
+    "name": "Original Air-Dried Venison Recipe for dogs",
+    "slug": "original-air-dried-venison-recipe-for-dogs",
+    "brand": "ZIWI",
+    "category": "Dog food",
+    "pet_type": "Dog",
+    "description": "A complete, air-dried meal made with 96% venison, organs and New Zealand Green Mussel - gently air-dried so it delivers maximum nutrition. The ZIWI Peak Air-Dried Difference: Raw ingredients - ethically-sourced ingredients your dog will love Minimally processed - gentle warm air locks in beneficial nutrients Maximum nutrition - unmatched nutrient density with irresistible flavour No compromises - no rendered meats, meals, added grains, potatoes o...",
+    "image_url": "/product-images/imported/product-037-036.png",
+    "source_url": "https://ziwipets.com/products/air-dried-venison-recipe-for-dogs",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-037-variant-01",
+        "product_id": "sample-product-037",
+        "variant_name": "454g",
+        "price": 48.08,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      },
+      {
+        "id": "sample-product-037-variant-02",
+        "product_id": "sample-product-037",
+        "variant_name": "1kg",
+        "price": 82.28,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 1
+      },
+      {
+        "id": "sample-product-037-variant-03",
+        "product_id": "sample-product-037",
+        "variant_name": "2.5kg",
+        "price": 198.68,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 2
+      }
+    ]
+  },
+  {
+    "id": "sample-product-038",
+    "name": "Original Air-dried Chicken Recipe for dogs",
+    "slug": "original-air-dried-chicken-recipe-for-dogs",
+    "brand": "ZIWI",
+    "category": "Dog food",
+    "pet_type": "Dog",
+    "description": "A complete, air-dried meal made with 96% free-range chicken, organs and New Zealand Green Mussel - gently air-dried so it delivers maximum nutrition . The ZIWI Peak Air-Dried Difference: Raw ingredients - ethically-sourced ingredients your dog will love Minimally processed - gentle warm air locks in beneficial nutrients Maximum nutrition - unmatched nutrient density with irresistible flavour No compromises - no rendered meats, meals, added grains...",
+    "image_url": "/product-images/imported/product-038-037.png",
+    "source_url": "https://ziwipets.com/products/air-dried-chicken-dog-food",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-038-variant-01",
+        "product_id": "sample-product-038",
+        "variant_name": "454g",
+        "price": 29.58,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      },
+      {
+        "id": "sample-product-038-variant-02",
+        "product_id": "sample-product-038",
+        "variant_name": "1kg",
+        "price": 53.48,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 1
+      },
+      {
+        "id": "sample-product-038-variant-03",
+        "product_id": "sample-product-038",
+        "variant_name": "2.5kg",
+        "price": 126.78,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 2
+      },
+      {
+        "id": "sample-product-038-variant-04",
+        "product_id": "sample-product-038",
+        "variant_name": "4kg",
+        "price": 193.58,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 3
+      }
+    ]
+  },
+  {
+    "id": "sample-product-039",
+    "name": "Original Canned Wet Beef Recipe for cats",
+    "slug": "original-canned-wet-beef-recipe-for-cats",
+    "brand": "ZIWI",
+    "category": "Cat food",
+    "pet_type": "Cat",
+    "description": "Having access to lush fields of grass year-round makes New Zealand free-range, grass-fed beef among the best in the world. What’s more, we only source from ethical farms and farmers. Our single protein recipes are perfect for pets with and sensitive stomachs, and for guardians who want to know exactly what’s going into their pet’s bowl.",
+    "image_url": "/product-images/imported/product-039-038.png",
+    "source_url": "https://ziwipets.com/products/wet-beef-cat-food",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-039-variant-01",
+        "product_id": "sample-product-039",
+        "variant_name": "85g",
+        "price": 79.68,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      },
+      {
+        "id": "sample-product-039-variant-02",
+        "product_id": "sample-product-039",
+        "variant_name": "185g",
+        "price": 60.48,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 1
+      }
+    ]
+  },
+  {
+    "id": "sample-product-040",
+    "name": "Original Canned Wet Beef Recipe for dogs",
+    "slug": "original-canned-wet-beef-recipe-for-dogs",
+    "brand": "ZIWI",
+    "category": "Dog food",
+    "pet_type": "Dog",
+    "description": "Having access to lush fields of grass year-round makes New Zealand free-range, grass-fed beef among the best in the world. What’s more, we only source from ethical farms and farmers. Our single protein recipes are perfect for pets with and sensitive stomachs, and for guardians who want to know exactly what’s going into their dog's bowl.",
+    "image_url": "/product-images/imported/product-040-039.png",
+    "source_url": "https://ziwipets.com/products/canned-beef-dog-food",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-040-variant-01",
+        "product_id": "sample-product-040",
+        "variant_name": "170g",
+        "price": 92.4,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      },
+      {
+        "id": "sample-product-040-variant-02",
+        "product_id": "sample-product-040",
+        "variant_name": "390g",
+        "price": 92.4,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 1
+      }
+    ]
+  },
+  {
+    "id": "sample-product-041",
+    "name": "Original Canned Wet Beef with South Pacific Fish Recipe for cats",
+    "slug": "original-canned-wet-beef-with-south-pacific-fish-recipe-for-cats",
+    "brand": "ZIWI",
+    "category": "Cat food",
+    "pet_type": "Cat",
+    "description": "New Zealand free-range, grass-fed beef is among the best in the world. What’s more, we only source from ethical farms and farmers. Whole southern blue whiting from the South Pacific makes this extremely tasty. Our nutrient dense beef and south pacific fish recipe for cats is perfect for picky eaters. ZIWI mixed protein recipes are perfect for pets with sensitive stomachs, and for guardians who want to know exactly what’s going into their pet’s bo...",
+    "image_url": "/product-images/imported/product-041-040.png",
+    "source_url": "https://ziwipets.com/products/original-canned-wet-beef-south-pacific-fish-recipe-for-cats",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-041-variant-01",
+        "product_id": "sample-product-041",
+        "variant_name": "85g",
+        "price": 79.68,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      },
+      {
+        "id": "sample-product-041-variant-02",
+        "product_id": "sample-product-041",
+        "variant_name": "185g",
+        "price": 60.48,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 1
+      }
+    ]
+  },
+  {
+    "id": "sample-product-042",
+    "name": "Original Canned Wet Chicken Recipe for cats",
+    "slug": "original-canned-wet-chicken-recipe-for-cats",
+    "brand": "ZIWI",
+    "category": "Cat food",
+    "pet_type": "Cat",
+    "description": "Ethically raised in New Zealand, our cage-free chickens have plenty of room to roam and spread their wings. ZIWI Peak® Chicken is a recipe that will make your cat’s eyes widen, and you can feel good about your choice, too.",
+    "image_url": "/product-images/imported/product-042-041.png",
+    "source_url": "https://ziwipets.com/products/wet-canned-chicken-cats",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-042-variant-01",
+        "product_id": "sample-product-042",
+        "variant_name": "85g",
+        "price": 79.68,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      },
+      {
+        "id": "sample-product-042-variant-02",
+        "product_id": "sample-product-042",
+        "variant_name": "185g",
+        "price": 60.48,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 1
+      }
+    ]
+  },
+  {
+    "id": "sample-product-043",
+    "name": "Original Canned Wet Chicken Recipe for dogs",
+    "slug": "original-canned-wet-chicken-recipe-for-dogs",
+    "brand": "ZIWI",
+    "category": "Dog food",
+    "pet_type": "Dog",
+    "description": "Ethically raised in New Zealand, our cage-free chickens have plenty of room to roam and spread their wings. ZIWI Peak Canned wet chicken is a recipe that will make your dog’s mouth water, and you can feel good about your choice, too.",
+    "image_url": "/product-images/imported/product-043-042.png",
+    "source_url": "https://ziwipets.com/products/wet-chicken-for-dogs",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-043-variant-01",
+        "product_id": "sample-product-043",
+        "variant_name": "170g",
+        "price": 92.4,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      },
+      {
+        "id": "sample-product-043-variant-02",
+        "product_id": "sample-product-043",
+        "variant_name": "390g",
+        "price": 92.4,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 1
+      }
+    ]
+  },
+  {
+    "id": "sample-product-044",
+    "name": "Original Canned Wet Chicken with Mackerel Recipe for cats",
+    "slug": "original-canned-wet-chicken-with-mackerel-recipe-for-cats",
+    "brand": "ZIWI",
+    "category": "Cat food",
+    "pet_type": "Cat",
+    "description": "Ethically sourced in New Zealand, our barn-raised chickens are full of flavour. Mixed with wild, whole blue mackerel from the remote waters around New Zealand, the purr-fect combination will suit even the fussiest of felines. ZIWI Peak® Chicken with Mackerel is a recipe that will make your cat’s eyes widen, and you can feel good about your choice, too.",
+    "image_url": "/product-images/imported/product-044-043.png",
+    "source_url": "https://ziwipets.com/products/original-canned-wet-chicken-mackerel-recipe-for-cats",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-044-variant-01",
+        "product_id": "sample-product-044",
+        "variant_name": "85g",
+        "price": 79.68,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      },
+      {
+        "id": "sample-product-044-variant-02",
+        "product_id": "sample-product-044",
+        "variant_name": "185g",
+        "price": 60.48,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 1
+      }
+    ]
+  },
+  {
+    "id": "sample-product-045",
+    "name": "Original Canned Wet Kahawai Recipe for cats",
+    "slug": "original-canned-wet-kahawai-recipe-for-cats",
+    "brand": "ZIWI",
+    "category": "Cat food",
+    "pet_type": "Cat",
+    "description": "In this recipe, lush New Zealand land meets cool, blue, pristine sea. Wild and sustainable Kahawai from the remote waters around New Zealand. Your cat will love the delicious flavours, and you’ll love the effect it has on their health.",
+    "image_url": "/product-images/imported/product-045-044.png",
+    "source_url": "https://ziwipets.com/products/original-canned-wet-kahawai-recipe-for-cats",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-045-variant-01",
+        "product_id": "sample-product-045",
+        "variant_name": "85g",
+        "price": 0,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      },
+      {
+        "id": "sample-product-045-variant-02",
+        "product_id": "sample-product-045",
+        "variant_name": "185g",
+        "price": 0,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 1
+      }
+    ]
+  },
+  {
+    "id": "sample-product-046",
+    "name": "Original Canned Wet Lamb Recipe for cats",
+    "slug": "original-canned-wet-lamb-recipe-for-cats",
+    "brand": "ZIWI",
+    "category": "Cat food",
+    "pet_type": "Cat",
+    "description": "New Zealand is famous for its world-class lamb, ethically raised by multi-generational family farmers under perfect conditions. Our temperate climate and lush, nutrient-rich farmland allow the lamb to graze all year round. This single protein food is gently nourishing and great for cats with food sensitivities. ZIWI Peak® Lamb is everything your cat needs to seek adventure, wherever they may find it.",
+    "image_url": "/product-images/imported/product-046-045.png",
+    "source_url": "https://ziwipets.com/products/lamb-cat-food",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-046-variant-01",
+        "product_id": "sample-product-046",
+        "variant_name": "85g",
+        "price": 79.68,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      },
+      {
+        "id": "sample-product-046-variant-02",
+        "product_id": "sample-product-046",
+        "variant_name": "185g",
+        "price": 60.48,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 1
+      }
+    ]
+  },
+  {
+    "id": "sample-product-047",
+    "name": "Original Canned Wet Lamb Recipe for dogs",
+    "slug": "original-canned-wet-lamb-recipe-for-dogs",
+    "brand": "ZIWI",
+    "category": "Dog food",
+    "pet_type": "Dog",
+    "description": "New Zealand is famous for its world-class lamb, ethically raised by multi-generational family farmers under perfect conditions. Our temperate climate and lush, nutrient-rich farmland allow the lamb to graze all year round. This single protein food is gently nourishing and great for dogs with food sensitivities. ZIWI Peak® Lamb is everything your dog needs to grab adventure by the tail.",
+    "image_url": "/product-images/imported/product-047-046.png",
+    "source_url": "https://ziwipets.com/products/wet-lamb-dog-food",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-047-variant-01",
+        "product_id": "sample-product-047",
+        "variant_name": "170g",
+        "price": 92.4,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      },
+      {
+        "id": "sample-product-047-variant-02",
+        "product_id": "sample-product-047",
+        "variant_name": "390g",
+        "price": 92.4,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 1
+      }
+    ]
+  },
+  {
+    "id": "sample-product-048",
+    "name": "Original Canned Wet Lamb with Venison Recipe for cats",
+    "slug": "original-canned-wet-lamb-with-venison-recipe-for-cats",
+    "brand": "ZIWI",
+    "category": "Cat food",
+    "pet_type": "Cat",
+    "description": "New Zealand’s sweeping coastline and temperate climate make an ideal habitat for free-range, grass-fed venison. They’re ethically raised on pastures of lush native grasses, with plenty of room to roam. Combined with world-class lamb, ethically raised by multi-generational family farmers under perfect conditions. Our temperate climate and lush, nutrient-rich farmland allow the lamb to graze all year round. As a mixed protein food, ZIWI Peak® Lamb ...",
+    "image_url": "/product-images/imported/product-048-047.png",
+    "source_url": "https://ziwipets.com/products/original-canned-wet-lamb-with-venison-recipe-for-cats",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-048-variant-01",
+        "product_id": "sample-product-048",
+        "variant_name": "85g",
+        "price": 98.4,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      },
+      {
+        "id": "sample-product-048-variant-02",
+        "product_id": "sample-product-048",
+        "variant_name": "185g",
+        "price": 78.12,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 1
+      }
+    ]
+  },
+  {
+    "id": "sample-product-049",
+    "name": "Original Canned Wet Mackerel & Lamb Recipe for cats",
+    "slug": "original-canned-wet-mackerel-and-lamb-recipe-for-cats",
+    "brand": "ZIWI",
+    "category": "Cat food",
+    "pet_type": "Cat",
+    "description": "In this recipe, lush New Zealand land meets cool, blue, pristine sea. Wild, whole blue mackerel from the remote waters around New Zealand are perfectly paired with North Island grass-fed, free-range lamb. Your cat will love the delicious flavors, and you’ll love the effect it has on their health.",
+    "image_url": "/product-images/imported/product-049-048.png",
+    "source_url": "https://ziwipets.com/products/wet-mackerel-lamb-for-cats",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-049-variant-01",
+        "product_id": "sample-product-049",
+        "variant_name": "85g",
+        "price": 79.68,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      },
+      {
+        "id": "sample-product-049-variant-02",
+        "product_id": "sample-product-049",
+        "variant_name": "185g",
+        "price": 60.48,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 1
+      }
+    ]
+  },
+  {
+    "id": "sample-product-050",
+    "name": "Original Canned Wet Mackerel & Lamb Recipe for dogs",
+    "slug": "original-canned-wet-mackerel-and-lamb-recipe-for-dogs",
+    "brand": "ZIWI",
+    "category": "Dog food",
+    "pet_type": "Dog",
+    "description": "In this recipe, lush New Zealand land meets cool, blue, pristine sea. Wild, whole blue mackerel from the remote waters around New Zealand are perfectly paired with North Island grass-fed, free-range lamb. Your dog will love the delicious flavours, and you’ll love the effect it has on their health.",
+    "image_url": "/product-images/imported/product-050-049.png",
+    "source_url": "https://ziwipets.com/products/mackerel-lamb-dog-food",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-050-variant-01",
+        "product_id": "sample-product-050",
+        "variant_name": "170g",
+        "price": 88.08,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      },
+      {
+        "id": "sample-product-050-variant-02",
+        "product_id": "sample-product-050",
+        "variant_name": "390g",
+        "price": 88.08,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 1
+      }
+    ]
+  },
+  {
+    "id": "sample-product-051",
+    "name": "Original Canned Wet Rabbit & Lamb Recipe for cats",
+    "slug": "original-canned-wet-rabbit-and-lamb-recipe-for-cats",
+    "brand": "ZIWI",
+    "category": "Cat food",
+    "pet_type": "Cat",
+    "description": "The temperate climate and lush fertile soil of New Zealand makes for perfect farmland for lamb to graze and rabbits to roam. ZIWI Peak® Rabbit & Lamb combines wild rabbit with free-range lamb, organs, New Zealand green mussels and bone to create this delicious, nutrient-dense PeakPrey® recipe your cat will love. This moisture-rich combination is inspired by nature and made for cats who thrive on a carnivorous diet. ZIWI Peak® Rabbit & Lamb recipe...",
+    "image_url": "/product-images/imported/product-051-050.png",
+    "source_url": "https://ziwipets.com/products/ziwi-peak-wet-rabbit-lamb-recipe-for-cats",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-051-variant-01",
+        "product_id": "sample-product-051",
+        "variant_name": "85g",
+        "price": 101.76,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      },
+      {
+        "id": "sample-product-051-variant-02",
+        "product_id": "sample-product-051",
+        "variant_name": "185g",
+        "price": 83.88,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 1
+      }
+    ]
+  },
+  {
+    "id": "sample-product-052",
+    "name": "Original Canned Wet Tripe & Lamb Recipe for dogs",
+    "slug": "original-canned-wet-tripe-and-lamb-recipe-for-dogs",
+    "brand": "ZIWI",
+    "category": "Dog food",
+    "pet_type": "Dog",
+    "description": "New Zealand is famous for its world-class lamb, ethically raised by multi-generational family farmers under perfect conditions. Our temperate climate and lush, nutrient-rich farmland allow the lamb to graze all year round. This recipe combines nutritious lamb with nourishing and highly palatable green tripe, for a meal perfectly crafted for carnivores. It’s great for dogs with sensitive stomachs, or any dog who sees adventure on the horizon.",
+    "image_url": "/product-images/imported/product-052-051.png",
+    "source_url": "https://ziwipets.com/products/lamb-tripe-for-dogs",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-052-variant-01",
+        "product_id": "sample-product-052",
+        "variant_name": "170g",
+        "price": 95.52,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      },
+      {
+        "id": "sample-product-052-variant-02",
+        "product_id": "sample-product-052",
+        "variant_name": "390g",
+        "price": 95.52,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 1
+      }
+    ]
+  },
+  {
+    "id": "sample-product-053",
+    "name": "Original Canned Wet Venison Recipe for cats",
+    "slug": "original-canned-wet-venison-recipe-for-cats",
+    "brand": "ZIWI",
+    "category": "Cat food",
+    "pet_type": "Cat",
+    "description": "New Zealand’s sweeping coastline and temperate climate make an ideal habitat for free-range, grass-fed venison. They’re ethically raised on pastures of lush native grasses, with plenty of room to roam. As a novel single protein food, ZIWI Peak® venison is ideal for cats with sensitive stomachs.",
+    "image_url": "/product-images/imported/product-053-052.png",
+    "source_url": "https://ziwipets.com/products/wet-canned-venison-cat-food",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-053-variant-01",
+        "product_id": "sample-product-053",
+        "variant_name": "85g",
+        "price": 98.4,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      },
+      {
+        "id": "sample-product-053-variant-02",
+        "product_id": "sample-product-053",
+        "variant_name": "185g",
+        "price": 78.12,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 1
+      }
+    ]
+  },
+  {
+    "id": "sample-product-054",
+    "name": "Original Canned Wet Venison Recipe for dogs",
+    "slug": "original-canned-wet-venison-recipe-for-dogs",
+    "brand": "ZIWI",
+    "category": "Dog food",
+    "pet_type": "Dog",
+    "description": "New Zealand’s sweeping coastline and temperate climate make an ideal habitat for free-range, grass-fed venison. They’re ethically raised on pastures of lush native grasses, with plenty of room to roam. As a novel single-protein food, ZIWI Peak® Venison is ideal for dogs with sensitive stomachs. With a recipe like this, nothing will hold you and your companion back from life’s adventures!",
+    "image_url": "/product-images/imported/product-054-053.png",
+    "source_url": "https://ziwipets.com/products/canned-venison-dog-food",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-054-variant-01",
+        "product_id": "sample-product-054",
+        "variant_name": "170g",
+        "price": 130.32,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      },
+      {
+        "id": "sample-product-054-variant-02",
+        "product_id": "sample-product-054",
+        "variant_name": "390g",
+        "price": 130.32,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 1
+      }
+    ]
+  },
+  {
+    "id": "sample-product-055",
+    "name": "Original Wet Mackerel Recipe for cats",
+    "slug": "original-wet-mackerel-recipe-for-cats",
+    "brand": "ZIWI",
+    "category": "Cat food",
+    "pet_type": "Cat",
+    "description": "In this recipe, lush New Zealand land meets cool, blue, pristine sea. Wild, whole blue mackerel from the remote waters around New Zealand. Mackerel is a rich source of Omega-3 fatty acids to support brain, skin, and coat health. Your cat will love the delicious flavors, and you’ll love the effect it has on their health.",
+    "image_url": "/product-images/imported/product-055-054.png",
+    "source_url": "https://ziwipets.com/products/wet-mackerel-cat-food",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-055-variant-01",
+        "product_id": "sample-product-055",
+        "variant_name": "85g",
+        "price": 79.68,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      },
+      {
+        "id": "sample-product-055-variant-02",
+        "product_id": "sample-product-055",
+        "variant_name": "185g",
+        "price": 60.48,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 1
+      }
+    ]
+  },
+  {
+    "id": "sample-product-056",
+    "name": "Steam & Dried Beef with Pumpkin Recipe for dogs",
+    "slug": "steam-and-dried-beef-with-pumpkin-recipe-for-dogs",
+    "brand": "ZIWI",
+    "category": "Dog food",
+    "pet_type": "Dog",
+    "description": "Crafted from ethically-sourced raw beef from New Zealand's green pastures with pumpkin and chicory root to support digestive health. Delicately micro-steamed then gently air-dried via our innovative two-step Z-MicroSteam™ technology to ensure optimum nourishment and palatability.",
+    "image_url": "/product-images/imported/product-056-055.png",
+    "source_url": "https://ziwipets.com/products/steam-dried-beef-with-pumpkin-recipe-for-dogs",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-056-variant-01",
+        "product_id": "sample-product-056",
+        "variant_name": "800g",
+        "price": 0,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      },
+      {
+        "id": "sample-product-056-variant-02",
+        "product_id": "sample-product-056",
+        "variant_name": "1.5kg",
+        "price": 0,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 1
+      },
+      {
+        "id": "sample-product-056-variant-03",
+        "product_id": "sample-product-056",
+        "variant_name": "3.2kg",
+        "price": 0,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 2
+      }
+    ]
+  },
+  {
+    "id": "sample-product-057",
+    "name": "Steam & Dried Beef with Southern Blue Whiting Recipe for cats",
+    "slug": "steam-and-dried-beef-with-southern-blue-whiting-recipe-for-cats",
+    "brand": "ZIWI",
+    "category": "Cat food",
+    "pet_type": "Cat",
+    "description": "Crafted from ethically-sourced raw beef from New Zealand's green pastures and wild-caught whole Southern Blue Whiting, a rich source of Omega-3 fatty acids to support overall skin health and a shiny coat. Delicately micro-steamed then gently air-dried via our innovative two-step Z-MicroSteam™ technology to ensure optimum nourishment and palatability",
+    "image_url": "/product-images/imported/product-057-056.png",
+    "source_url": "https://ziwipets.com/products/steam-dried-beef-with-southern-blue-whiting-recipe-for-cats",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-057-variant-01",
+        "product_id": "sample-product-057",
+        "variant_name": "800g",
+        "price": 0,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      },
+      {
+        "id": "sample-product-057-variant-02",
+        "product_id": "sample-product-057",
+        "variant_name": "2.2kg",
+        "price": 0,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 1
+      }
+    ]
+  },
+  {
+    "id": "sample-product-058",
+    "name": "Steam & Dried Cage-free Chicken with Orchard Fruits Recipe for dogs",
+    "slug": "steam-and-dried-cage-free-chicken-with-orchard-fruits-recipe-for-dogs",
+    "brand": "ZIWI",
+    "category": "Dog food",
+    "pet_type": "Dog",
+    "description": "Crafted from ethically-sourced raw chicken from New Zealand's green pastures with a blend of orchard fruits and chicory root to support digestive health. Delicately micro-steamed then gently air-dried via our innovative two-step Z-MicroSteam™ technology to ensure optimum nourishment and palatability.",
+    "image_url": "/product-images/imported/product-058-057.png",
+    "source_url": "https://ziwipets.com/products/steam-dried-cage-free-chicken-with-orchard-fruits-recipe-for-dogs",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-058-variant-01",
+        "product_id": "sample-product-058",
+        "variant_name": "800g",
+        "price": 0,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      },
+      {
+        "id": "sample-product-058-variant-02",
+        "product_id": "sample-product-058",
+        "variant_name": "1.5kg",
+        "price": 0,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 1
+      },
+      {
+        "id": "sample-product-058-variant-03",
+        "product_id": "sample-product-058",
+        "variant_name": "3.2kg",
+        "price": 0,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 2
+      }
+    ]
+  },
+  {
+    "id": "sample-product-059",
+    "name": "Steam & Dried Cage-free Chicken with Whole Mackerel Recipe for cats",
+    "slug": "steam-and-dried-cage-free-chicken-with-whole-mackerel-recipe-for-cats",
+    "brand": "ZIWI",
+    "category": "Cat food",
+    "pet_type": "Cat",
+    "description": "Crafted from ethically-sourced raw chicken from New Zealand's green pastures and wild-caught whole Mackerel, a rich source of Omega-3 fatty acids to support overall skin health and a shiny coat. Delicately micro-steamed then gently air-dried via our innovative two-step Z-MicroSteam™ technology to ensure optimum nourishment and palatability.",
+    "image_url": "/product-images/imported/product-059-058.png",
+    "source_url": "https://ziwipets.com/products/steam-dried-cage-free-chicken-with-whole-mackerel-recipe-for-cats",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-059-variant-01",
+        "product_id": "sample-product-059",
+        "variant_name": "800g",
+        "price": 0,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      },
+      {
+        "id": "sample-product-059-variant-02",
+        "product_id": "sample-product-059",
+        "variant_name": "2.2kg",
+        "price": 0,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 1
+      }
+    ]
+  },
+  {
+    "id": "sample-product-060",
+    "name": "Steam & Dried Lamb with Green Vegetables Recipe for dogs",
+    "slug": "steam-and-dried-lamb-with-green-vegetables-recipe-for-dogs",
+    "brand": "ZIWI",
+    "category": "Dog food",
+    "pet_type": "Dog",
+    "description": "Crafted from ethically-sourced raw lamb from New Zealand's green pastures with a blend of spinach, kale, green beans and chicory root to support digestive health. Delicately micro-steamed then gently air-dried via our innovative two-step Z-MicroSteam™ technology to ensure optimum nourishment and palatability.",
+    "image_url": "/product-images/imported/product-060-059.png",
+    "source_url": "https://ziwipets.com/products/steam-dried-lamb-with-green-vegetables-recipe-for-dogs",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-060-variant-01",
+        "product_id": "sample-product-060",
+        "variant_name": "800g",
+        "price": 0,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      },
+      {
+        "id": "sample-product-060-variant-02",
+        "product_id": "sample-product-060",
+        "variant_name": "1.5kg",
+        "price": 0,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 1
+      },
+      {
+        "id": "sample-product-060-variant-03",
+        "product_id": "sample-product-060",
+        "variant_name": "3.2kg",
+        "price": 0,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 2
+      }
+    ]
+  },
+  {
+    "id": "sample-product-061",
+    "name": "Steam & Dried Wild South Pacific Fish Recipe for cats",
+    "slug": "steam-and-dried-wild-south-pacific-fish-recipe-for-cats",
+    "brand": "ZIWI",
+    "category": "Cat food",
+    "pet_type": "Cat",
+    "description": "Crafted from raw, wild-caught whole Jack Mackerel, whole Southern Blue Whiting, whole Mackerel and Hoki from the pristine oceans surrounding New Zealand. A rich source of Omega-3 fatty acids to support overall skin health and a shiny coat. Delicately micro-steamed then gently air-dried via our innovative two-step Z-MicroSteam™ technology to ensure optimum nourishment and palatability.",
+    "image_url": "/product-images/imported/product-061-060.png",
+    "source_url": "https://ziwipets.com/products/steam-dried-wild-south-pacific-fish-recipe-for-cats",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-061-variant-01",
+        "product_id": "sample-product-061",
+        "variant_name": "800g",
+        "price": 0,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      },
+      {
+        "id": "sample-product-061-variant-02",
+        "product_id": "sample-product-061",
+        "variant_name": "2.2kg",
+        "price": 0,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 1
+      }
+    ]
+  },
+  {
+    "id": "sample-product-062",
+    "name": "Raw Freeze-Dried Treats | Human-Grade Beef Heart",
+    "slug": "raw-freeze-dried-treats-human-grade-beef-heart",
+    "brand": "Rafa",
+    "category": "Freeze-dried treats",
+    "pet_type": "Cat / Dog",
+    "description": "Raw Freeze-Dried Beef Heart is a nutrient-dense treat packed with natural protein, iron, and B vitamins. Our human-grade beef heart is gently freeze-dried to preserve its nutritional integrity while removing moisture for extended shelf life and convenient storage. Perfect for dogs and cats seeking whole-food nutrition, each piece delivers concentrated goodness without fillers, additives, or artificial ingredients. The freeze-drying process locks ...",
+    "image_url": "/product-images/imported/product-062-061.png",
+    "source_url": "https://rafasuperfoods.com/products/raw-freeze-dried-treats-human-grade-beef-heart",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-062-variant-01",
+        "product_id": "sample-product-062",
+        "variant_name": "90G",
+        "price": 90.0,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "id": "sample-product-063",
+    "name": "Raw Freeze-Dried Treats | Human-Grade Beef Liver",
+    "slug": "raw-freeze-dried-treats-human-grade-beef-liver",
+    "brand": "Rafa",
+    "category": "Freeze-dried treats",
+    "pet_type": "Cat / Dog",
+    "description": "Packed with natural iron, B vitamins, and amino acids, our grass-fed beef liver delivers concentrated nutrition in every freeze-dried bite. Raw processing preserves heat-sensitive nutrients while removing moisture, creating a shelf-stable treat that supports muscle development, energy, and immune function. Single-ingredient, human-grade, and completely natural—no fillers, grains, or additives. Ideal for training or daily wellness.",
+    "image_url": "/product-images/imported/product-063-062.png",
+    "source_url": "https://rafasuperfoods.com/products/raw-freeze-dried-treats-human-grade-beef-liver",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-063-variant-01",
+        "product_id": "sample-product-063",
+        "variant_name": "90G",
+        "price": 90.0,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "id": "sample-product-064",
+    "name": "Raw Freeze-Dried Treats | Human-Grade Beef Steak",
+    "slug": "raw-freeze-dried-treats-human-grade-beef-steak",
+    "brand": "Rafa",
+    "category": "Freeze-dried treats",
+    "pet_type": "Cat / Dog",
+    "description": "Bold, Meaty and All-Aussie Beef at Its Best Made from 100% human-grade Australian beef steak , this freeze-dried treat is big on protein, iron, and flavour. We slice it fresh and gently freeze-dry it raw, preserving all the natural benefits without the need for cooking or chemicals. It’s a hearty reward that fuels active pets, supports muscle maintenance, and delivers a serious protein punch. Great for growing pups, hardworking dogs, or just good...",
+    "image_url": "/product-images/imported/product-064-063.png",
+    "source_url": "https://rafasuperfoods.com/products/human-grade-beef-steak-raw-freeze-dried-treats",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-064-variant-01",
+        "product_id": "sample-product-064",
+        "variant_name": "80G",
+        "price": 80.0,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "id": "sample-product-065",
+    "name": "Raw Freeze-Dried Treats | Human-Grade Beef Tripe",
+    "slug": "raw-freeze-dried-treats-human-grade-beef-tripe",
+    "brand": "Rafa",
+    "category": "Freeze-dried treats",
+    "pet_type": "Cat / Dog",
+    "description": "Raw Freeze-Dried Beef Tripe is a nutrient-dense, human-grade treat designed for dogs and cats. Freeze-drying preserves the natural enzymes and amino acids found in tripe, supporting digestive health and nutrient absorption. With no additives, fillers, or processing, each piece delivers pure, concentrated nutrition. Ideal as a training reward, meal topper, or standalone snack. Store in a cool, dry place and serve as part of a balanced diet. Perfec...",
+    "image_url": "/product-images/imported/product-065-064.png",
+    "source_url": "https://rafasuperfoods.com/products/raw-freeze-dried-treats-human-grade-beef-tripe",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-065-variant-01",
+        "product_id": "sample-product-065",
+        "variant_name": "90G",
+        "price": 90.0,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "id": "sample-product-066",
+    "name": "Raw Freeze-Dried Treats | Human-Grade Buffalo Steak",
+    "slug": "raw-freeze-dried-treats-human-grade-buffalo-steak",
+    "brand": "Rafa",
+    "category": "Freeze-dried treats",
+    "pet_type": "Cat / Dog",
+    "description": "Robust. Lean. Packed with Power. Sourced from Australian water buffalo , this red meat is bold, nutrient-dense, and naturally lean. Buffalo is a brilliant alternative to beef — lower in fat, higher in iron, and rich in amino acids that support muscle health, energy, and recovery. We freeze-dry it raw to lock in all that natural goodness without the need for preservatives or processing. It’s ideal for active dogs, working breeds, or pets who need ...",
+    "image_url": "/product-images/imported/product-066-065.png",
+    "source_url": "https://rafasuperfoods.com/products/raw-freeze-dried-treats-human-grade-buffalo-steak",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-066-variant-01",
+        "product_id": "sample-product-066",
+        "variant_name": "50G",
+        "price": 50.0,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "id": "sample-product-067",
+    "name": "Raw Freeze-Dried Treats | Human-Grade Chicken Breast",
+    "slug": "raw-freeze-dried-treats-human-grade-chicken-breast",
+    "brand": "Rafa",
+    "category": "Freeze-dried treats",
+    "pet_type": "Cat / Dog",
+    "description": "100% Human-Grade Aussie Chook — Lean, Clean, and Protein-Packed This one’s a classic. Made from premium Australian chicken breast , our freeze-dried chook is high in protein, low in fat, and free from any fillers, flavours or funny business. It’s real meat, gently freeze-dried in our Sydney facility to lock in all the natural goodness without needing preservatives or refrigeration. Whether you're training, treating, or topping up meals, this lean...",
+    "image_url": "/product-images/imported/product-067-066.png",
+    "source_url": "https://rafasuperfoods.com/products/human-grade-chicken-breast-raw-freeze-dried-treats",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-067-variant-01",
+        "product_id": "sample-product-067",
+        "variant_name": "60G",
+        "price": 12.95,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      },
+      {
+        "id": "sample-product-067-variant-02",
+        "product_id": "sample-product-067",
+        "variant_name": "100G",
+        "price": 19.95,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 1
+      }
+    ]
+  },
+  {
+    "id": "sample-product-068",
+    "name": "Raw Freeze-Dried Treats | Human-Grade Chicken Heart",
+    "slug": "raw-freeze-dried-treats-human-grade-chicken-heart",
+    "brand": "Rafa",
+    "category": "Freeze-dried treats",
+    "pet_type": "Cat / Dog",
+    "description": "Tiny But Mighty — A Natural Nutrient Bomb Sourced from human-grade Aussie chickens , these bite-sized hearts are packed with taurine, iron, and B vitamins — essential for heart health, energy, and whole-body vitality. They're freeze-dried to preserve their raw benefits and crunchy texture, making them an easy go-to for training or meal toppers. Perfect for cats and dogs alike, especially those who thrive on organ meats or whole-prey diets. No flu...",
+    "image_url": "/product-images/imported/product-068-067.png",
+    "source_url": "https://rafasuperfoods.com/products/raw-freeze-dried-treats-human-grade-chicken-heart",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-068-variant-01",
+        "product_id": "sample-product-068",
+        "variant_name": "60G",
+        "price": 12.95,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      },
+      {
+        "id": "sample-product-068-variant-02",
+        "product_id": "sample-product-068",
+        "variant_name": "100G",
+        "price": 19.95,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 1
+      }
+    ]
+  },
+  {
+    "id": "sample-product-069",
+    "name": "Raw Freeze-Dried Treats | Human-Grade Chicken Neck",
+    "slug": "raw-freeze-dried-treats-human-grade-chicken-neck",
+    "brand": "Rafa",
+    "category": "Freeze-dried treats",
+    "pet_type": "Cat / Dog",
+    "description": "Pure chicken neck, nothing else. That's what your dog and cat are getting—human-grade meat freeze-dried to lock in all the good stuff. These treats are packed with natural glucosamine and chondroitin for joint health, plus they're brilliant for keeping teeth and gums strong. The gnawing action stimulates saliva production, which means better dental health without any fuss. Single-ingredient snacks mean no fillers, no dodgy additives, just real me...",
+    "image_url": "/product-images/imported/product-069-068.png",
+    "source_url": "https://rafasuperfoods.com/products/raw-freeze-dried-treats-human-grade-chicken-neck",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-069-variant-01",
+        "product_id": "sample-product-069",
+        "variant_name": "60G",
+        "price": 60.0,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "id": "sample-product-070",
+    "name": "Raw Freeze-Dried Treats | Human-Grade Crocodile Steak",
+    "slug": "raw-freeze-dried-treats-human-grade-crocodile-steak",
+    "brand": "Rafa",
+    "category": "Freeze-dried treats",
+    "pet_type": "Cat / Dog",
+    "description": "A Little Wild. A Lot Hypoallergenic. Made from 100% Australian farmed crocodile , this exotic protein is perfect for pets with allergies or digestive issues. It’s naturally lean, high in protein, and easy on the gut — while offering a light, neutral flavour even fussy eaters enjoy. Freeze-dried raw with no additives, it's as clean and novel as pet treats get. ✔ Hypoallergenic, novel protein ✔ Low fat, high digestibility ✔ Perfect for elimination ...",
+    "image_url": "/product-images/imported/product-070-069.png",
+    "source_url": "https://rafasuperfoods.com/products/raw-freeze-dried-treats-human-grade-chicken-breast",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-070-variant-01",
+        "product_id": "sample-product-070",
+        "variant_name": "50G",
+        "price": 50.0,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "id": "sample-product-071",
+    "name": "Raw Freeze-Dried Treats | Human-Grade Emu Heart",
+    "slug": "raw-freeze-dried-treats-human-grade-emu-heart",
+    "brand": "Rafa",
+    "category": "Freeze-dried treats",
+    "pet_type": "Cat / Dog",
+    "description": "Raw freeze-dried emu heart delivers nutrient-dense, human-grade nutrition in a convenient treat form. Rich in iron, B vitamins, and amino acids, this premium protein source supports muscle health and energy levels. The freeze-drying process preserves natural nutrients while removing moisture, creating a shelf-stable product with concentrated flavour and nutrition. Perfect for those seeking whole-food nutrition without additives or processing. Ide...",
+    "image_url": "/product-images/imported/product-071-070.png",
+    "source_url": "https://rafasuperfoods.com/products/raw-freeze-dried-treats-human-grade-emu-heart",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-071-variant-01",
+        "product_id": "sample-product-071",
+        "variant_name": "80G",
+        "price": 80.0,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "id": "sample-product-072",
+    "name": "Raw Freeze-Dried Treats | Human-Grade Emu Liver",
+    "slug": "raw-freeze-dried-treats-human-grade-emu-liver",
+    "brand": "Rafa",
+    "category": "Freeze-dried treats",
+    "pet_type": "Cat / Dog",
+    "description": "Raw Freeze-Dried Emu Liver — Premium Nutrient-Dense Superfood Experience the concentrated nutrition of Australian emu liver in its purest form. What You Get Our freeze-dried emu liver retains all essential nutrients while removing moisture, creating a shelf-stable superfood packed with iron, B vitamins, and amino acids. Each bite delivers bioavailable nutrients that support energy, immune function, and overall vitality. Pure & Potent The freeze-d...",
+    "image_url": "/product-images/imported/product-072-071.png",
+    "source_url": "https://rafasuperfoods.com/products/raw-freeze-dried-treats-human-grade-emu-liver",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-072-variant-01",
+        "product_id": "sample-product-072",
+        "variant_name": "80G",
+        "price": 80.0,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "id": "sample-product-073",
+    "name": "Raw Freeze-Dried Treats | Human-Grade Emu Steak",
+    "slug": "raw-freeze-dried-treats-human-grade-emu-steak",
+    "brand": "Rafa",
+    "category": "Freeze-dried treats",
+    "pet_type": "Cat / Dog",
+    "description": "Aussie Bush Tucker for Pets with Taste Low in fat and high in protein, emu is a brilliant alternative to traditional red meats. Ours is 100% Australian emu , gently freeze-dried to retain its nutrients and chewy, satisfying texture. Loaded with selenium, iron, and omega-rich fats, emu is ideal for dogs and cats who’ve tried it all — and are ready for something wild (yet very digestible). ✔ Lean, novel red meat ✔ Aussie-sourced and freeze-dried in...",
+    "image_url": "/product-images/imported/product-073-072.png",
+    "source_url": "https://rafasuperfoods.com/products/raw-freeze-dried-treats-human-grade-emu-steak",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-073-variant-01",
+        "product_id": "sample-product-073",
+        "variant_name": "60G",
+        "price": 60.0,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "id": "sample-product-074",
+    "name": "Raw Freeze-Dried Treats | Human-Grade Green Lipped Mussels",
+    "slug": "raw-freeze-dried-treats-human-grade-green-lipped-mussels",
+    "brand": "Rafa",
+    "category": "Freeze-dried treats",
+    "pet_type": "Cat / Dog",
+    "description": "Straight from New Zealand Waters — Naturally Powerful Our green-lipped mussels come from the clean, cold waters of New Zealand and are known for their natural support for joints, skin, and inflammation . Packed with omega-3s, glucosamine and chondroitin, these shellfish superstars are a brilliant addition to any pet's diet. We freeze-dry them raw to retain their potency, crunch, and seafood flavour — no cooking, no nonsense. ✔ Functional treat fo...",
+    "image_url": "/product-images/imported/product-074-073.png",
+    "source_url": "https://rafasuperfoods.com/products/raw-freeze-dried-treats-human-grade-green-lipped-mussels",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-074-variant-01",
+        "product_id": "sample-product-074",
+        "variant_name": "60G",
+        "price": 60.0,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "id": "sample-product-075",
+    "name": "Raw Freeze-Dried Treats | Human-Grade Hoki Fillet",
+    "slug": "raw-freeze-dried-treats-human-grade-hoki-fillet",
+    "brand": "Rafa",
+    "category": "Freeze-dried treats",
+    "pet_type": "Cat / Dog",
+    "description": "Premium freeze-dried hoki fillet sourced for quality and nutrition. Each piece retains the natural goodness of fresh fish with a lightweight, shelf-stable format perfect for convenient feeding or training rewards. Human-grade ingredients mean you're giving your companion the same quality you'd expect for yourself. The freeze-drying process locks in essential omega-3 fatty acids and protein while removing moisture, creating a naturally preserved t...",
+    "image_url": "/product-images/imported/product-075-074.png",
+    "source_url": "https://rafasuperfoods.com/products/raw-freeze-dried-treats-human-grade-hoki-fillet",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-075-variant-01",
+        "product_id": "sample-product-075",
+        "variant_name": "60G",
+        "price": 60.0,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "id": "sample-product-076",
+    "name": "Raw Freeze-Dried Treats | Human-Grade Kangaroo Steak",
+    "slug": "raw-freeze-dried-treats-human-grade-kangaroo-steak",
+    "brand": "Rafa",
+    "category": "Freeze-dried treats",
+    "pet_type": "Cat / Dog",
+    "description": "Lean, Wild, and Full of Bounce Sourced from wild Australian kangaroo , this treat is naturally lean, iron-rich, and a top choice for pets with allergies or food sensitivities. Kangaroo is one of the cleanest red meats on the planet — ethically wild-harvested and minimally processed. Our freeze-drying method keeps the nutrition locked in and the flavour intact. A brilliant, novel protein option for rotational diets, raw feeders, or pets who just l...",
+    "image_url": "/product-images/imported/product-076-075.png",
+    "source_url": "https://rafasuperfoods.com/products/raw-freeze-dried-treats-human-grade-kangaroo-steak",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-076-variant-01",
+        "product_id": "sample-product-076",
+        "variant_name": "70G",
+        "price": 70.0,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "id": "sample-product-077",
+    "name": "Raw Freeze-Dried Treats | Human-Grade Lamb Green Tripe",
+    "slug": "raw-freeze-dried-treats-human-grade-lamb-green-tripe",
+    "brand": "Rafa",
+    "category": "Freeze-dried treats",
+    "pet_type": "Cat / Dog",
+    "description": "Raw Freeze-Dried Lamb Green Tripe is a nutrient-dense treat designed for dogs who thrive on whole-food nutrition. Green tripe—the unbleached stomach lining of grass-fed lamb—is naturally rich in digestive enzymes, probiotics, and amino acids that support gut health and nutrient absorption. Our freeze-drying process preserves these vital nutrients while removing moisture, creating a shelf-stable treat with concentrated nutritional value. Each piec...",
+    "image_url": "/product-images/imported/product-077-076.png",
+    "source_url": "https://rafasuperfoods.com/products/raw-freeze-dried-treats-human-grade-lamb-green-tripe",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-077-variant-01",
+        "product_id": "sample-product-077",
+        "variant_name": "90G",
+        "price": 90.0,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "id": "sample-product-078",
+    "name": "Raw Freeze-Dried Treats | Human-Grade Lamb Heart",
+    "slug": "raw-freeze-dried-treats-human-grade-lamb-heart",
+    "brand": "Rafa",
+    "category": "Freeze-dried treats",
+    "pet_type": "Cat / Dog",
+    "description": "These high-quality, human-grade lamb heart treats are made with Australian lamb and preserved through a careful freeze-drying processRaw, nutrient-dense lamb heart treats sourced from Australian lamb and preserved through freeze-drying to lock in natural goodness. Human-grade quality means you can trust every bite for your pet. Rich in protein, iron, and essential amino acids, these treats support muscle development, energy levels, and overall vi...",
+    "image_url": "/product-images/imported/product-078-077.png",
+    "source_url": "https://rafasuperfoods.com/products/raw-freeze-dried-treats-human-grade-lamb-heart",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-078-variant-01",
+        "product_id": "sample-product-078",
+        "variant_name": "90G",
+        "price": 90.0,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "id": "sample-product-079",
+    "name": "Raw Freeze-Dried Treats | Human-Grade Lamb Liver",
+    "slug": "raw-freeze-dried-treats-human-grade-lamb-liver",
+    "brand": "Rafa",
+    "category": "Freeze-dried treats",
+    "pet_type": "Cat / Dog",
+    "description": "Raw freeze-dried lamb liver treats packed with natural nutrition for dogs and cats. Each piece retains the full nutritional profile of fresh liver—rich in iron, B vitamins, and amino acids—without refrigeration needed. Single-ingredient, human-grade quality with no additives, fillers, or preservatives. Perfect as a training reward, meal topper, or standalone treat. Shelf-stable and convenient for pet owners seeking whole-food nutrition in a light...",
+    "image_url": "/product-images/imported/product-079-078.png",
+    "source_url": "https://rafasuperfoods.com/products/raw-freeze-dried-treats-human-grade-lamb-liver",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-079-variant-01",
+        "product_id": "sample-product-079",
+        "variant_name": "90G",
+        "price": 90.0,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "id": "sample-product-080",
+    "name": "Raw Freeze-Dried Treats | Human-Grade Lamb Steak",
+    "slug": "raw-freeze-dried-treats-human-grade-lamb-steak",
+    "brand": "Rafa",
+    "category": "Freeze-dried treats",
+    "pet_type": "Cat / Dog",
+    "description": "Tender Aussie Lamb, Full of Flavour and Goodness Sourced from 100% Australian lamb , this rich red meat delivers protein, iron, and zinc in every bite. It’s perfect for supporting skin, coat, and immune health — with a naturally meaty flavour your pet will love. Freeze-dried raw to retain nutrients and made right here in our Sydney facility, this lamb steak is ideal for dogs and cats who enjoy variety or need a red-meat rotation. No fillers. No g...",
+    "image_url": "/product-images/imported/product-080-079.png",
+    "source_url": "https://rafasuperfoods.com/products/raw-freeze-dried-treats-human-grade-lamb-steak",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-080-variant-01",
+        "product_id": "sample-product-080",
+        "variant_name": "80G",
+        "price": 80.0,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "id": "sample-product-081",
+    "name": "Raw Freeze-Dried Treats | Human-Grade Naked Sardine",
+    "slug": "raw-freeze-dried-treats-human-grade-naked-sardine",
+    "brand": "Rafa",
+    "category": "Freeze-dried treats",
+    "pet_type": "Cat / Dog",
+    "description": "Your pup's gonna go absolutely mental for these freeze-dried sardines. We're talking pure, raw fish with zero fillers, additives, or dodgy stuff — just whole sardines stripped down to their nutritious best. These little beauties are packed with omega-3s and protein to keep your furry mate's coat shiny and joints happy. They're human-grade, so you know exactly what you're feeding your best mate. Perfect for training rewards, mixing into their regu...",
+    "image_url": "/product-images/imported/product-081-080.png",
+    "source_url": "https://rafasuperfoods.com/products/raw-freeze-dried-treats-human-grade-naked-sardine",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-081-variant-01",
+        "product_id": "sample-product-081",
+        "variant_name": "80G",
+        "price": 80.0,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "id": "sample-product-082",
+    "name": "Raw Freeze-Dried Treats | Human-Grade Pink Ling",
+    "slug": "raw-freeze-dried-treats-human-grade-pink-ling",
+    "brand": "Rafa",
+    "category": "Freeze-dried treats",
+    "pet_type": "Cat / Dog",
+    "description": "Raw Freeze-Dried Pink Ling Treats – Australian Made Your furry friend is about to discover their new obsession. These Australian-made freeze-dried pink ling treats are pure, simple, and absolutely irresistible. We've stripped away everything except the good stuff – just premium pink ling, frozen and dried to lock in all the natural flavour and nutrition. No fillers, no mystery ingredients, just wholesome protein that'll have tails wagging and whi...",
+    "image_url": "/product-images/imported/product-082-081.png",
+    "source_url": "https://rafasuperfoods.com/products/raw-freeze-dried-treats-human-grade-pink-ling",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-082-variant-01",
+        "product_id": "sample-product-082",
+        "variant_name": "50G",
+        "price": 50.0,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "id": "sample-product-083",
+    "name": "Raw Freeze-Dried Treats | Human-Grade Tasmanian Salmon Fillet",
+    "slug": "raw-freeze-dried-treats-human-grade-tasmanian-salmon-fillet",
+    "brand": "Rafa",
+    "category": "Freeze-dried treats",
+    "pet_type": "Cat / Dog",
+    "description": "Premium raw freeze-dried Tasmanian salmon fillet sourced from pristine Australian waters. This human-grade treat retains all the natural nutrients, omega-3 fatty acids, and protein of fresh salmon in a lightweight, shelf-stable form. Perfect for dogs and cats seeking a high-protein, grain-free snack that supports joint health, coat condition, and overall wellness. No additives, fillers, or artificial ingredients — just pure salmon goodness. Serve...",
+    "image_url": "/product-images/imported/product-083-082.png",
+    "source_url": "https://rafasuperfoods.com/products/raw-freeze-dried-treats-human-grade-tasmanian-salmon-fillet",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-083-variant-01",
+        "product_id": "sample-product-083",
+        "variant_name": "60G",
+        "price": 60.0,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "id": "sample-product-084",
+    "name": "Raw Freeze-Dried Treats | Human-Grade Venison Steak",
+    "slug": "raw-freeze-dried-treats-human-grade-venison-steak",
+    "brand": "Rafa",
+    "category": "Freeze-dried treats",
+    "pet_type": "Cat / Dog",
+    "description": "Rich, Clean and Wildly Nutritious This free-roaming venison is a top-tier red meat option that’s both gentle on digestion and full of natural goodness. Rich in iron, B vitamins and lean protein , it’s ideal for elimination diets, sensitive stomachs, or pets needing something new. Freeze-dried raw and unprocessed, this premium game meat offers real nourishment in every bite. ✔ Single-ingredient, novel protein ✔ Great for allergy-prone pets ✔ Lean,...",
+    "image_url": "/product-images/imported/product-084-083.png",
+    "source_url": "https://rafasuperfoods.com/products/raw-freeze-dried-treats-human-grade-venison-steak",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-084-variant-01",
+        "product_id": "sample-product-084",
+        "variant_name": "70G",
+        "price": 70.0,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "id": "sample-product-085",
+    "name": "Raw Freeze-Dried Treats | Human-Grade Wallaby Steak",
+    "slug": "raw-freeze-dried-treats-human-grade-wallaby-steak",
+    "brand": "Rafa",
+    "category": "Freeze-dried treats",
+    "pet_type": "Cat / Dog",
+    "description": "Wild, Lean and Easy to Digest This wild-harvested Aussie wallaby is as clean as it gets — low in fat, high in bioavailable protein, and ideal for sensitive pets or rotational feeding. Wallaby is a sustainably sourced novel protein , rich in iron, zinc, and B vitamins, while being incredibly gentle on the digestive system. Freeze-dried raw in our Sydney facility, this is a soft-textured, nutrient-rich treat or topper for dogs and cats who deserve ...",
+    "image_url": "/product-images/imported/product-085-084.png",
+    "source_url": "https://rafasuperfoods.com/products/raw-freeze-dried-treats-human-grade-wallaby-steak",
+    "is_active": true,
+    "product_variants": [
+      {
+        "id": "sample-product-085-variant-01",
+        "product_id": "sample-product-085",
+        "variant_name": "60G",
+        "price": 60.0,
+        "sale_price": null,
+        "stock_status": "In Stock",
+        "sort_order": 0
+      }
+    ]
+  }
+]
