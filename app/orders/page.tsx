@@ -5,7 +5,12 @@ import { getCustomerOrders } from "@/lib/data/account";
 import { getCurrentUser } from "@/lib/supabase/server";
 import { formatMoney } from "@/lib/utils/format";
 
-export default async function OrdersPage() {
+export default async function OrdersPage({
+  searchParams
+}: {
+  searchParams: Promise<{ message?: string }>;
+}) {
+  const params = await searchParams;
   const [user, orders] = await Promise.all([getCurrentUser(), getCustomerOrders()]);
 
   if (!user) {
@@ -21,6 +26,9 @@ export default async function OrdersPage() {
       <div>
         <h1 className="text-3xl font-bold">Orders</h1>
         <p className="mt-2 text-stone-600">Track your pickup reservations.</p>
+        {params.message ? (
+          <p className="mt-4 rounded-2xl bg-qpet-soft p-3 text-sm font-semibold text-qpet-dark">{params.message}</p>
+        ) : null}
       </div>
       {!orders.length ? (
         <EmptyState title="No orders yet" body="Your pickup reservations will appear here." actionHref="/products" actionLabel="Shop products" />

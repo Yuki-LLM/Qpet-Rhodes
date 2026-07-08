@@ -220,6 +220,11 @@ on public.orders for update
 using (public.is_admin())
 with check (public.is_admin());
 
+create policy "Users cancel own pending orders"
+on public.orders for update
+using (user_id = auth.uid() and status in ('New Order', 'Preparing'))
+with check (user_id = auth.uid() and status = 'Cancelled');
+
 create policy "Users view own order items"
 on public.order_items for select
 using (

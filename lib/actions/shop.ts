@@ -197,14 +197,20 @@ export async function cancelCustomerOrder(formData: FormData) {
     redirect("/orders?message=This order can no longer be cancelled.");
   }
 
-  await supabase
+  const { error } = await supabase
     .from("orders")
     .update({ status: "Cancelled" })
     .eq("id", orderId)
     .eq("user_id", user.id);
 
+  if (error) {
+    redirect("/orders?message=Order could not be cancelled. Please contact the store.");
+  }
+
   revalidatePath("/orders");
   revalidatePath("/account");
+  revalidatePath("/admin/orders");
+  redirect("/orders?message=Your order has been cancelled.");
 }
 
 export async function createPickupOrder(formData: FormData) {
