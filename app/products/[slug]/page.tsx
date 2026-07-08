@@ -42,11 +42,11 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
               ) : null}
             </div>
             <h1 className="max-w-3xl text-2xl font-bold leading-snug text-ink md:text-3xl lg:text-4xl">{product.name}</h1>
+            <ProductPurchasePanel product={product} />
             <p className="max-w-3xl pt-2 leading-8 text-slate-600">
               {product.description ?? "Product details will be updated soon."}
             </p>
           </div>
-          <ProductPurchasePanel product={product} />
         </div>
       </section>
     </main>
