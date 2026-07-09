@@ -13,9 +13,9 @@ export default async function AdminDashboardPage() {
   return (
     <section className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
       {cards.map((card) => (
-        <div key={card.label} className="rounded-md border border-stone-200 bg-white p-5 shadow-sm">
-          <p className="text-sm font-semibold text-stone-500">{card.label}</p>
-          <p className="mt-3 text-3xl font-bold">{card.value}</p>
+        <div key={card.label} className="rounded-2xl border border-line bg-white p-5 shadow-sm">
+          <p className="text-sm font-semibold text-slate-500">{card.label}</p>
+          <p className="mt-3 text-3xl font-bold text-ink">{card.value}</p>
         </div>
       ))}
     </section>

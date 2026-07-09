@@ -21,9 +21,9 @@ export async function Header() {
               <Image
                 src="/brand/qpet-logo.png"
                 alt={siteConfig.storeName}
-                width={180}
-                height={180}
-                className="h-14 w-auto"
+                width={220}
+                height={220}
+                className="h-24 w-auto sm:h-28"
                 priority
               />
               <div>
@@ -96,9 +96,9 @@ export async function Header() {
             <Image
               src="/brand/qpet-logo.png"
               alt={siteConfig.storeName}
-              width={180}
-              height={180}
-              className="h-16 w-auto"
+              width={240}
+              height={240}
+              className="h-28 w-auto lg:h-32"
               priority
             />
             <span className="sr-only">{siteConfig.storeName}</span>
