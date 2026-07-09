@@ -182,14 +182,14 @@ export default async function AdminProductsPage({
         </form>
       </details>
 
-      <div className="grid grid-cols-1 gap-5">
+      <div className="grid grid-cols-1 gap-5 xl:grid-cols-2">
         {products.map((product) => {
           const variants = [...(product.product_variants ?? [])].sort((a, b) => a.sort_order - b.sort_order);
           const firstVariant = variants[0];
 
           return (
             <article key={product.id} className="overflow-hidden rounded-2xl border border-line bg-white shadow-sm">
-              <form action={updateProduct} encType="multipart/form-data" className="grid gap-5 p-4 sm:p-5 lg:grid-cols-[220px_1fr] xl:grid-cols-[260px_1fr]">
+              <form action={updateProduct} encType="multipart/form-data" className="grid gap-5 p-4 sm:p-5 2xl:grid-cols-[220px_1fr]">
                 <input type="hidden" name="product_id" value={product.id} />
                 <input type="hidden" name="existing_image_url" value={product.image_url ?? ""} />
 
@@ -258,7 +258,7 @@ export default async function AdminProductsPage({
                     <form
                       key={variant.id}
                       action={updateProductVariant}
-                      className="grid gap-3 rounded-xl border border-line bg-white p-3 lg:grid-cols-[1fr_120px_120px_150px_90px_auto]"
+                      className="grid gap-3 rounded-xl border border-line bg-white p-3 2xl:grid-cols-[1fr_120px_120px_150px_90px_auto]"
                     >
                       <input type="hidden" name="variant_id" value={variant.id} />
                       <label className="grid gap-1">
@@ -288,7 +288,7 @@ export default async function AdminProductsPage({
                     </form>
                   ))}
 
-                  <form action={addProductVariant} className="grid gap-3 rounded-xl border border-dashed border-qpet/50 bg-white p-3 lg:grid-cols-[1fr_120px_120px_150px_90px_auto]">
+                  <form action={addProductVariant} className="grid gap-3 rounded-xl border border-dashed border-qpet/50 bg-white p-3 2xl:grid-cols-[1fr_120px_120px_150px_90px_auto]">
                     <input type="hidden" name="product_id" value={product.id} />
                     <label className="grid gap-1">
                       <span className="label">New size / color</span>
