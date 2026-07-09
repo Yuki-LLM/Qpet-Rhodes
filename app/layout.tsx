@@ -4,7 +4,7 @@ import { siteConfig } from "@/lib/config";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: `${siteConfig.storeName} | Pet Pickup Store`,
+  title: `${siteConfig.storeName} | Retail Products Online Shop`,
   description: siteConfig.tagline
 };
 

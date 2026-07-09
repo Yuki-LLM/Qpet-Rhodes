@@ -1,6 +1,6 @@
 export const siteConfig = {
   storeName: "Qpet Rhodes",
-  tagline: "Quality pet products for a healthier and happier life.",
+  tagline: "Retail products online shop for local pickup.",
   address: "Shop G33, Qpet, 21 Marquet St, Rhodes NSW 2138",
   phone: "0493 044 664",
   email: "hello@qpetrhodes.com",

@@ -16,13 +16,13 @@ export async function Header() {
     return (
       <>
         <header className="sticky top-0 z-40 border-b border-line bg-white/95 backdrop-blur">
-          <div className="container-shell flex flex-wrap items-center justify-between gap-4 py-4">
+          <div className="container-shell flex flex-wrap items-center justify-center gap-4 py-4 sm:justify-between">
             <Link href="/admin" className="flex items-center gap-3">
               <Image
                 src="/brand/qpet-logo.png"
                 alt={siteConfig.storeName}
-                width={116}
-                height={92}
+                width={180}
+                height={180}
                 className="h-14 w-auto"
                 priority
               />
@@ -32,7 +32,7 @@ export async function Header() {
               </div>
             </Link>
 
-            <div className="flex items-center gap-3">
+            <div className="hidden items-center gap-3 sm:flex">
               <Link href="/account" className="btn-secondary py-2.5">
                 <UserRound size={17} />
                 Account
@@ -92,12 +92,12 @@ export async function Header() {
     <>
       <header className="sticky top-0 z-40 border-b border-line bg-white/95 backdrop-blur">
         <div className="container-shell grid gap-4 py-4 lg:grid-cols-[260px_1fr_300px] lg:items-center">
-          <Link href="/" className="flex items-center gap-3">
+          <Link href="/" className="flex items-center justify-self-center lg:justify-self-start">
             <Image
               src="/brand/qpet-logo.png"
               alt={siteConfig.storeName}
-              width={116}
-              height={92}
+              width={180}
+              height={180}
               className="h-16 w-auto"
               priority
             />

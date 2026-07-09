@@ -119,3 +119,19 @@ export async function updateProductVariant(formData: FormData) {
 
   revalidatePath("/admin/products");
 }
+
+export async function addProductVariant(formData: FormData) {
+  const supabase = await getAdminClient();
+  const productId = String(formData.get("product_id"));
+
+  await supabase.from("product_variants").insert({
+    product_id: productId,
+    variant_name: String(formData.get("variant_name") ?? "New variant"),
+    price: Number(formData.get("price") ?? 0),
+    sale_price: Number(formData.get("sale_price")) || null,
+    stock_status: String(formData.get("stock_status") ?? "In Stock"),
+    sort_order: Number(formData.get("sort_order") ?? 0)
+  });
+
+  revalidatePath("/admin/products");
+}
