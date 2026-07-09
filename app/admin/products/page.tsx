@@ -188,143 +188,143 @@ export default async function AdminProductsPage({
           const firstVariant = variants[0];
 
           return (
-            <article key={product.id} className="overflow-hidden rounded-2xl border border-line bg-white shadow-sm">
-              <form action={updateProduct} encType="multipart/form-data" className="grid gap-5 p-4 sm:p-5 2xl:grid-cols-[220px_1fr]">
+            <article key={product.id} className="overflow-hidden rounded-xl border border-line bg-white shadow-sm">
+              <form action={updateProduct} encType="multipart/form-data" className="grid gap-3 p-3 sm:grid-cols-[132px_1fr]">
                 <input type="hidden" name="product_id" value={product.id} />
                 <input type="hidden" name="existing_image_url" value={product.image_url ?? ""} />
 
-                <div className="relative aspect-square overflow-hidden rounded-xl bg-mist">
+                <div className="relative aspect-square w-32 max-w-full justify-self-center overflow-hidden rounded-lg bg-mist sm:w-full">
                   {product.image_url ? (
-                    <Image src={product.image_url} alt={product.name} fill sizes="220px" className="object-contain p-5" />
+                    <Image src={product.image_url} alt={product.name} fill sizes="132px" className="object-contain p-2" />
                   ) : (
                     <div className="flex h-full items-center justify-center text-sm text-slate-500">No image</div>
                   )}
-                  <label className="absolute bottom-3 right-3 inline-flex size-11 cursor-pointer items-center justify-center rounded-full bg-qpet text-white shadow-sm transition hover:bg-qpet-dark" title="Change image">
-                    <ImagePlus size={19} />
+                  <label className="absolute bottom-2 right-2 inline-flex size-8 cursor-pointer items-center justify-center rounded-full bg-qpet text-white shadow-sm transition hover:bg-qpet-dark" title="Change image">
+                    <ImagePlus size={15} />
                     <input className="sr-only" type="file" name="image" accept="image/*" />
                   </label>
                 </div>
 
-                <div className="grid gap-4">
-                  <div className="grid gap-3 sm:grid-cols-2">
+                <div className="grid gap-2">
+                  <div className="grid gap-2 sm:grid-cols-2">
                     <label className="grid gap-1">
-                      <span className="label inline-flex items-center gap-1"><Pencil size={14} /> Brand</span>
-                      <input className="field" name="brand" list="admin-brand-options" defaultValue={product.brand} required />
+                      <span className="label-compact inline-flex items-center gap-1"><Pencil size={12} /> Brand</span>
+                      <input className="field-compact" name="brand" list="admin-brand-options" defaultValue={product.brand} required />
                     </label>
                     <label className="grid gap-1">
-                      <span className="label inline-flex items-center gap-1"><Pencil size={14} /> Category</span>
-                      <input className="field" name="category" list="admin-category-options" defaultValue={product.category} required />
+                      <span className="label-compact inline-flex items-center gap-1"><Pencil size={12} /> Category</span>
+                      <input className="field-compact" name="category" list="admin-category-options" defaultValue={product.category} required />
                     </label>
                   </div>
 
                   <label className="grid gap-1">
-                    <span className="label inline-flex items-center gap-1"><Pencil size={14} /> Product title</span>
-                    <input className="field text-base font-bold" name="name" defaultValue={product.name} required />
+                    <span className="label-compact inline-flex items-center gap-1"><Pencil size={12} /> Product title</span>
+                    <input className="field-compact font-bold" name="name" defaultValue={product.name} required />
                   </label>
 
                   <label className="grid gap-1">
-                    <span className="label inline-flex items-center gap-1"><Pencil size={14} /> Description</span>
-                    <textarea className="field min-h-24" name="description" defaultValue={product.description ?? ""} />
+                    <span className="label-compact inline-flex items-center gap-1"><Pencil size={12} /> Description</span>
+                    <textarea className="field-compact min-h-14 py-2" name="description" defaultValue={product.description ?? ""} />
                   </label>
 
-                  <div className="grid gap-3 sm:grid-cols-2">
+                  <div className="grid gap-2 sm:grid-cols-2">
                     <label className="grid gap-1">
-                      <span className="label">Pet type</span>
-                      <input className="field" name="pet_type" list="admin-pet-type-options" defaultValue={product.pet_type ?? ""} />
+                      <span className="label-compact">Pet type</span>
+                      <input className="field-compact" name="pet_type" list="admin-pet-type-options" defaultValue={product.pet_type ?? ""} />
                     </label>
                     <label className="grid gap-1">
-                      <span className="label">Source URL</span>
-                      <input className="field" type="url" name="source_url" defaultValue={product.source_url ?? ""} />
+                      <span className="label-compact">Source URL</span>
+                      <input className="field-compact" type="url" name="source_url" defaultValue={product.source_url ?? ""} />
                     </label>
                   </div>
 
-                  <div className="flex flex-wrap items-center justify-between gap-3 rounded-xl bg-mist/70 p-3">
-                    <p className="text-sm text-slate-500">
+                  <div className="flex flex-wrap items-center justify-between gap-2 rounded-lg bg-mist/70 p-2">
+                    <p className="text-xs text-slate-500">
                       From <span className="font-bold text-ink">{firstVariant ? formatMoney(getVariantPrice(firstVariant)) : "No price"}</span>
                     </p>
-                    <button className="btn-primary py-2.5">Save product</button>
+                    <button className="btn-primary px-3 py-2 text-xs">Save product</button>
                   </div>
                 </div>
               </form>
 
-              <div className="border-t border-line bg-mist/50 p-4">
+              <div className="border-t border-line bg-mist/50 p-3">
                 <div className="flex items-center justify-between gap-3">
-                  <h3 className="font-bold">Variants</h3>
-                  <span className="text-sm text-slate-500">Size, color, price, sale, and stock</span>
+                  <h3 className="text-sm font-bold">Variants</h3>
+                  <span className="hidden text-xs text-slate-500 sm:inline">Size, price, sale, stock</span>
                 </div>
 
-                <div className="mt-4 grid gap-3">
+                <div className="mt-2 grid gap-2">
                   {variants.map((variant) => (
                     <form
                       key={variant.id}
                       action={updateProductVariant}
-                      className="grid gap-3 rounded-xl border border-line bg-white p-3 2xl:grid-cols-[1fr_120px_120px_150px_90px_auto]"
+                      className="grid gap-2 rounded-lg border border-line bg-white p-2 xl:grid-cols-[1fr_76px_76px_102px_52px_auto]"
                     >
                       <input type="hidden" name="variant_id" value={variant.id} />
                       <label className="grid gap-1">
-                        <span className="label inline-flex items-center gap-1"><Pencil size={14} /> Size / color</span>
-                        <input className="field" name="variant_name" defaultValue={variant.variant_name} />
+                        <span className="label-compact inline-flex items-center gap-1"><Pencil size={12} /> Size</span>
+                        <input className="field-compact" name="variant_name" defaultValue={variant.variant_name} />
                       </label>
                       <label className="grid gap-1">
-                        <span className="label inline-flex items-center gap-1"><Pencil size={14} /> Price</span>
-                        <input className="field" type="number" step="0.01" name="price" defaultValue={variant.price} />
+                        <span className="label-compact inline-flex items-center gap-1"><Pencil size={12} /> Price</span>
+                        <input className="field-compact" type="number" step="0.01" name="price" defaultValue={variant.price} />
                       </label>
                       <label className="grid gap-1">
-                        <span className="label">Sale price</span>
-                        <input className="field" type="number" step="0.01" name="sale_price" defaultValue={variant.sale_price ?? ""} />
+                        <span className="label-compact">Sale</span>
+                        <input className="field-compact" type="number" step="0.01" name="sale_price" defaultValue={variant.sale_price ?? ""} />
                       </label>
                       <label className="grid gap-1">
-                        <span className="label">Stock</span>
-                        <select className="field" name="stock_status" defaultValue={variant.stock_status}>
+                        <span className="label-compact">Stock</span>
+                        <select className="field-compact" name="stock_status" defaultValue={variant.stock_status}>
                           <option>In Stock</option>
                           <option>Out of Stock</option>
                         </select>
                       </label>
                       <label className="grid gap-1">
-                        <span className="label">Order</span>
-                        <input className="field" type="number" name="sort_order" defaultValue={variant.sort_order} />
+                        <span className="label-compact">Order</span>
+                        <input className="field-compact" type="number" name="sort_order" defaultValue={variant.sort_order} />
                       </label>
-                      <button className="btn-secondary self-end py-3">Save</button>
+                      <button className="btn-secondary self-end px-3 py-2 text-xs">Save</button>
                     </form>
                   ))}
 
-                  <form action={addProductVariant} className="grid gap-3 rounded-xl border border-dashed border-qpet/50 bg-white p-3 2xl:grid-cols-[1fr_120px_120px_150px_90px_auto]">
+                  <form action={addProductVariant} className="grid gap-2 rounded-lg border border-dashed border-qpet/50 bg-white p-2 xl:grid-cols-[1fr_76px_76px_102px_52px_auto]">
                     <input type="hidden" name="product_id" value={product.id} />
                     <label className="grid gap-1">
-                      <span className="label">New size / color</span>
-                      <input className="field" name="variant_name" placeholder="Example: 1kg / Blue" required />
+                      <span className="label-compact">New size</span>
+                      <input className="field-compact" name="variant_name" placeholder="1kg / Blue" required />
                     </label>
                     <label className="grid gap-1">
-                      <span className="label">Price</span>
-                      <input className="field" type="number" step="0.01" name="price" required />
+                      <span className="label-compact">Price</span>
+                      <input className="field-compact" type="number" step="0.01" name="price" required />
                     </label>
                     <label className="grid gap-1">
-                      <span className="label">Sale price</span>
-                      <input className="field" type="number" step="0.01" name="sale_price" />
+                      <span className="label-compact">Sale</span>
+                      <input className="field-compact" type="number" step="0.01" name="sale_price" />
                     </label>
                     <label className="grid gap-1">
-                      <span className="label">Stock</span>
-                      <select className="field" name="stock_status">
+                      <span className="label-compact">Stock</span>
+                      <select className="field-compact" name="stock_status">
                         <option>In Stock</option>
                         <option>Out of Stock</option>
                       </select>
                     </label>
                     <label className="grid gap-1">
-                      <span className="label">Order</span>
-                      <input className="field" type="number" name="sort_order" defaultValue={variants.length} />
+                      <span className="label-compact">Order</span>
+                      <input className="field-compact" type="number" name="sort_order" defaultValue={variants.length} />
                     </label>
-                    <button className="btn-primary self-end py-3">
-                      <Plus size={17} />
+                    <button className="btn-primary self-end px-3 py-2 text-xs">
+                      <Plus size={14} />
                       Add
                     </button>
                   </form>
                 </div>
               </div>
 
-              <form action={deleteProduct} className="border-t border-line p-4">
+              <form action={deleteProduct} className="border-t border-line p-3">
                 <input type="hidden" name="product_id" value={product.id} />
-                <button className="btn-secondary py-2.5 text-clay hover:border-clay hover:text-clay">
-                  <Trash2 size={17} />
+                <button className="btn-secondary px-3 py-2 text-xs text-clay hover:border-clay hover:text-clay">
+                  <Trash2 size={14} />
                   Hide product
                 </button>
               </form>
