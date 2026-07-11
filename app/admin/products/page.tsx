@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { ImagePlus, Pencil, Plus, SlidersHorizontal, Trash2 } from "lucide-react";
+import { AdminActionForm } from "@/components/admin-action-form";
 import { addProductVariant, createProduct, deleteProduct, updateProduct, updateProductVariant } from "@/lib/actions/admin";
 import { getAdminProducts } from "@/lib/data/admin";
 import { formatMoney, getVariantPrice } from "@/lib/utils/format";
@@ -56,8 +57,6 @@ export default async function AdminProductsPage({
   const products = filteredProducts.slice(startIndex, startIndex + pageSize);
   const showingStart = filteredProducts.length ? startIndex + 1 : 0;
   const showingEnd = Math.min(startIndex + products.length, filteredProducts.length);
-  const returnTo = adminProductsHref(params, safePage);
-
   return (
     <section className="grid gap-6">
       <datalist id="admin-brand-options">
@@ -75,12 +74,6 @@ export default async function AdminProductsPage({
           <option key={petType} value={petType} />
         ))}
       </datalist>
-
-      {params.message ? (
-        <div className="rounded-2xl border border-qpet/30 bg-qpet-soft px-4 py-3 text-sm font-semibold text-qpet-dark shadow-sm">
-          {params.message}
-        </div>
-      ) : null}
 
       <div className="rounded-2xl border border-line bg-white p-4 shadow-sm sm:p-5">
         <div className="flex flex-wrap items-end justify-between gap-3">
@@ -157,8 +150,7 @@ export default async function AdminProductsPage({
 
       <details className="rounded-2xl border border-line bg-white p-4 shadow-sm sm:p-5">
         <summary className="cursor-pointer text-lg font-bold text-ink">Add product</summary>
-        <form action={createProduct} className="mt-5 grid gap-4 lg:grid-cols-2" encType="multipart/form-data">
-          <input type="hidden" name="return_to" value={returnTo} />
+        <AdminActionForm action={createProduct} className="mt-5 grid gap-4 lg:grid-cols-2" encType="multipart/form-data">
           <label className="grid gap-2">
             <span className="label">Product name</span>
             <input className="field" name="name" required />
@@ -207,7 +199,7 @@ export default async function AdminProductsPage({
             <input className="field" type="file" name="image" accept="image/*" />
           </label>
           <button className="btn-primary lg:col-span-2">Add product</button>
-        </form>
+        </AdminActionForm>
       </details>
 
       <div className="grid grid-cols-1 gap-5 xl:grid-cols-2">
@@ -217,8 +209,7 @@ export default async function AdminProductsPage({
 
           return (
             <article key={product.id} className="overflow-hidden rounded-xl border border-line bg-white shadow-sm">
-              <form action={updateProduct} encType="multipart/form-data" className="grid gap-3 p-3 sm:grid-cols-[132px_1fr]">
-                <input type="hidden" name="return_to" value={returnTo} />
+              <AdminActionForm action={updateProduct} encType="multipart/form-data" className="grid gap-3 p-3 sm:grid-cols-[132px_1fr]">
                 <input type="hidden" name="product_id" value={product.id} />
                 <input type="hidden" name="existing_image_url" value={product.image_url ?? ""} />
 
@@ -274,7 +265,7 @@ export default async function AdminProductsPage({
                     <button className="btn-primary px-3 py-2 text-xs">Save product</button>
                   </div>
                 </div>
-              </form>
+              </AdminActionForm>
 
               <div className="border-t border-line bg-mist/50 p-3">
                 <div className="flex items-center justify-between gap-3">
@@ -284,12 +275,11 @@ export default async function AdminProductsPage({
 
                 <div className="mt-2 grid gap-2">
                   {variants.map((variant) => (
-                    <form
+                    <AdminActionForm
                       key={variant.id}
                       action={updateProductVariant}
                       className="grid gap-2 rounded-lg border border-line bg-white p-2 xl:grid-cols-[1fr_76px_76px_102px_auto_auto]"
                     >
-                      <input type="hidden" name="return_to" value={returnTo} />
                       <input type="hidden" name="variant_id" value={variant.id} />
                       <input type="hidden" name="sort_order" value={variant.sort_order} />
                       <label className="grid gap-1">
@@ -315,11 +305,10 @@ export default async function AdminProductsPage({
                       <button className="btn-secondary self-end px-3 py-2 text-xs text-clay hover:border-clay hover:text-clay" name="intent" value="delete">
                         Delete
                       </button>
-                    </form>
+                    </AdminActionForm>
                   ))}
 
-                  <form action={addProductVariant} className="grid gap-2 rounded-lg border border-dashed border-qpet/50 bg-white p-2 xl:grid-cols-[1fr_76px_76px_102px_auto]">
-                    <input type="hidden" name="return_to" value={returnTo} />
+                  <AdminActionForm action={addProductVariant} className="grid gap-2 rounded-lg border border-dashed border-qpet/50 bg-white p-2 xl:grid-cols-[1fr_76px_76px_102px_auto]">
                     <input type="hidden" name="product_id" value={product.id} />
                     <input type="hidden" name="sort_order" value={variants.length} />
                     <label className="grid gap-1">
@@ -345,18 +334,17 @@ export default async function AdminProductsPage({
                       <Plus size={14} />
                       Add
                     </button>
-                  </form>
+                  </AdminActionForm>
                 </div>
               </div>
 
-              <form action={deleteProduct} className="border-t border-line p-3">
-                <input type="hidden" name="return_to" value={returnTo} />
+              <AdminActionForm action={deleteProduct} className="border-t border-line p-3">
                 <input type="hidden" name="product_id" value={product.id} />
                 <button className="btn-secondary px-3 py-2 text-xs text-clay hover:border-clay hover:text-clay">
                   <Trash2 size={14} />
                   Hide product
                 </button>
-              </form>
+              </AdminActionForm>
             </article>
           );
         })}

@@ -33,8 +33,10 @@ async function uploadImageIfPresent(formData: FormData, existingImageUrl?: strin
   return data.publicUrl;
 }
 
-function redirectBack(formData: FormData, message: string) {
-  const rawReturnTo = String(formData.get("return_to") ?? "/admin/products");
+function actionResult(formData: FormData, message: string) {
+  const rawReturnTo = String(formData.get("return_to") ?? "");
+  if (!rawReturnTo) return { message };
+
   const returnTo = rawReturnTo.startsWith("/admin/products") ? rawReturnTo : "/admin/products";
   const separator = returnTo.includes("?") ? "&" : "?";
 
@@ -75,7 +77,7 @@ export async function createProduct(formData: FormData) {
   }
 
   revalidatePath("/admin/products");
-  redirectBack(formData, "Product added.");
+  return actionResult(formData, "Product added.");
 }
 
 export async function updateProduct(formData: FormData) {
@@ -100,7 +102,7 @@ export async function updateProduct(formData: FormData) {
     .eq("id", id);
 
   revalidatePath("/admin/products");
-  redirectBack(formData, "Product saved.");
+  return actionResult(formData, "Product saved.");
 }
 
 export async function deleteProduct(formData: FormData) {
@@ -109,7 +111,7 @@ export async function deleteProduct(formData: FormData) {
 
   await supabase.from("products").update({ is_active: false }).eq("id", id);
   revalidatePath("/admin/products");
-  redirectBack(formData, "Product hidden.");
+  return actionResult(formData, "Product hidden.");
 }
 
 export async function updateProductVariant(formData: FormData) {
@@ -120,7 +122,7 @@ export async function updateProductVariant(formData: FormData) {
   if (intent === "delete") {
     await supabase.from("product_variants").delete().eq("id", id);
     revalidatePath("/admin/products");
-    redirectBack(formData, "Variant deleted.");
+    return actionResult(formData, "Variant deleted.");
   }
 
   await supabase
@@ -135,7 +137,7 @@ export async function updateProductVariant(formData: FormData) {
     .eq("id", id);
 
   revalidatePath("/admin/products");
-  redirectBack(formData, "Variant saved.");
+  return actionResult(formData, "Variant saved.");
 }
 
 export async function addProductVariant(formData: FormData) {
@@ -152,5 +154,5 @@ export async function addProductVariant(formData: FormData) {
   });
 
   revalidatePath("/admin/products");
-  redirectBack(formData, "Variant added.");
+  return actionResult(formData, "Variant added.");
 }
