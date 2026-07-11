@@ -80,14 +80,23 @@ export async function updateProfile(formData: FormData) {
   const fullName = String(formData.get("full_name") ?? "").trim();
   const phone = String(formData.get("phone") ?? "").trim();
 
-  const { error } = await supabase.from("profiles").update({ full_name: fullName, phone }).eq("id", user.id);
+  const { error: authError } = await supabase.auth.updateUser({
+    data: {
+      full_name: fullName,
+      phone
+    }
+  });
 
-  if (error) {
+  if (authError) {
     return {
       status: "error" as const,
-      message: `Could not save profile: ${error.message}`
+      message: `Could not save profile: ${authError.message}`
     };
   }
+
+  const { error } = await supabase.from("profiles").update({ full_name: fullName, phone }).eq("id", user.id);
+
+  if (error) return { status: "error" as const, message: `Could not save profile: ${error.message}` };
 
   revalidatePath("/account");
   revalidatePath("/checkout");

@@ -46,7 +46,21 @@ export async function getCurrentProfile() {
   if (!supabase || !user) return null;
 
   const { data } = await supabase.from("profiles").select("*").eq("id", user.id).single();
-  return data;
+  if (data) {
+    return {
+      ...data,
+      full_name: data.full_name ?? user.user_metadata?.full_name ?? null,
+      phone: data.phone ?? user.user_metadata?.phone ?? null
+    };
+  }
+
+  return {
+    id: user.id,
+    full_name: user.user_metadata?.full_name ?? null,
+    phone: user.user_metadata?.phone ?? null,
+    role: "customer",
+    created_at: null
+  };
 }
 
 export async function requireAdmin() {

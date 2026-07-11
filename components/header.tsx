@@ -91,20 +91,20 @@ export async function Header() {
   return (
     <>
       <header className="sticky top-0 z-40 border-b border-line bg-white/95 backdrop-blur">
-        <div className="container-shell grid gap-2 py-2 sm:gap-4 sm:py-4 lg:grid-cols-[260px_1fr_300px] lg:items-center">
-          <Link href="/" className="flex items-center justify-self-center lg:justify-self-start">
+        <div className="container-shell grid grid-cols-[1fr_auto_1fr] items-center gap-y-2 py-2 sm:gap-4 sm:py-4 lg:grid-cols-[260px_1fr_300px]">
+          <Link href="/" className="col-start-2 flex items-center justify-self-center lg:col-start-auto lg:justify-self-start">
             <Image
               src="/brand/qpet-logo.png"
               alt={siteConfig.storeName}
               width={240}
               height={240}
-              className="h-16 w-auto sm:h-28 lg:h-32"
+              className="h-24 w-auto sm:h-28 lg:h-32"
               priority
             />
             <span className="sr-only">{siteConfig.storeName}</span>
           </Link>
 
-          <form action="/products" className="relative order-3 lg:order-none">
+          <form action="/products" className="relative col-span-3 order-3 lg:col-span-1 lg:order-none">
             <label className="sr-only" htmlFor="site-search">
               Search products
             </label>
@@ -123,7 +123,7 @@ export async function Header() {
             </button>
           </form>
 
-          <div className="flex items-center justify-end gap-4 text-sm font-medium text-ink">
+          <div className="col-start-3 row-start-1 flex items-center justify-end gap-4 text-sm font-medium text-ink lg:col-start-auto lg:row-start-auto">
             <Link href={user ? "/account" : "/login"} className="hidden items-center gap-2 transition hover:text-qpet-dark sm:flex">
               <UserRound size={19} />
               Account
