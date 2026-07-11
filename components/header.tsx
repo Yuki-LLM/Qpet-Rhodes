@@ -113,7 +113,7 @@ export async function Header() {
               name="q"
               type="search"
               placeholder="Search for products..."
-              className="h-12 w-full rounded-xl border border-line bg-mist px-5 pr-12 text-sm outline-none transition focus:border-qpet focus:bg-white focus:ring-2 focus:ring-qpet/15"
+              className="h-10 w-full rounded-xl border border-line bg-mist px-5 pr-12 text-sm outline-none transition focus:border-qpet focus:bg-white focus:ring-2 focus:ring-qpet/15 sm:h-12"
             />
             <button
               className="absolute right-3 top-1/2 flex size-8 -translate-y-1/2 items-center justify-center text-ink transition hover:text-qpet-dark"
