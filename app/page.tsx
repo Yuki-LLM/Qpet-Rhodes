@@ -6,11 +6,6 @@ import { ProductCard } from "@/components/product-card";
 import { siteConfig } from "@/lib/config";
 import { getProducts } from "@/lib/data/products";
 import { getCurrentProfile } from "@/lib/supabase/server";
-import type { Product } from "@/lib/types";
-
-function findProductImage(products: Product[], matcher: (product: Product) => boolean) {
-  return products.find((product) => matcher(product) && product.image_url)?.image_url ?? products.find((product) => product.image_url)?.image_url;
-}
 
 export default async function HomePage() {
   const profile = await getCurrentProfile();
@@ -18,14 +13,11 @@ export default async function HomePage() {
 
   const allProducts = await getProducts();
   const popularProducts = allProducts.slice(0, 5);
-  const dogImage = findProductImage(allProducts, (product) => product.pet_type?.includes("Dog") ?? false);
-  const catImage = findProductImage(allProducts, (product) => product.pet_type?.includes("Cat") ?? false);
-  const foodImage = findProductImage(allProducts, (product) => product.category.includes("food"));
 
   const categories = [
-    { label: "Dog", href: "/products?petType=Dog", image: dogImage },
-    { label: "Cat", href: "/products?petType=Cat", image: catImage },
-    { label: "Others", href: "/products?category=Freeze-dried+treats", image: foodImage }
+    { label: "Dog", href: "/products?petType=Dog", image: "/category-images/dog.png" },
+    { label: "Cat", href: "/products?petType=Cat", image: "/category-images/cat.png" },
+    { label: "Others", href: "/products?category=Treats", image: "/category-images/others.png" }
   ];
 
   const benefits = [
@@ -88,16 +80,14 @@ export default async function HomePage() {
         </div>
         <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-4">
           {categories.map((category) => (
-            <Link key={category.label} href={category.href} className="group relative min-h-36 overflow-hidden rounded-2xl bg-mist p-6 shadow-sm">
-              {category.image ? (
-                <Image
-                  src={category.image}
-                  alt={category.label}
-                  width={220}
-                  height={160}
-                  className="absolute bottom-0 left-0 h-32 w-44 object-contain transition group-hover:scale-105"
-                />
-              ) : null}
+            <Link key={category.label} href={category.href} className="group relative min-h-36 overflow-hidden rounded-2xl bg-qpet-soft/70 p-6 shadow-sm transition hover:bg-qpet-soft">
+              <Image
+                src={category.image}
+                alt={category.label}
+                width={220}
+                height={180}
+                className="absolute bottom-0 left-1 h-32 w-40 object-contain opacity-80 mix-blend-multiply transition group-hover:scale-105 group-hover:opacity-95"
+              />
               <div className="relative ml-auto grid w-32 gap-3 pt-5">
                 <h3 className="text-xl font-bold">{category.label}</h3>
                 <span className="inline-flex items-center gap-2 font-semibold text-qpet-dark">

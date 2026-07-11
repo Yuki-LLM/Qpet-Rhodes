@@ -29,11 +29,19 @@ function getPageHeading(params: Record<string, string | undefined>) {
     };
   }
 
-  if (params.category === "Freeze-dried treats") {
+  if (params.category === "Treats") {
     return {
       eyebrow: "Others",
       title: "Treats & Others",
-      body: "Browse freeze-dried treats and other pet essentials."
+      body: "Browse treats and other pet essentials ready for local pickup."
+    };
+  }
+
+  if (params.category) {
+    return {
+      eyebrow: "Category",
+      title: params.category,
+      body: `Browse ${params.category.toLowerCase()} products ready for local pickup.`
     };
   }
 
