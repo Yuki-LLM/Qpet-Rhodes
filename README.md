@@ -11,7 +11,7 @@ Public product display and pickup reservation website for a pet store. The custo
 - Product catalog with variants
 - Cart, wishlist, pickup checkout, customer orders
 - Admin dashboard, product management, order status management, wishlist demand report
-- Excel product extraction script
+- Supabase-hosted product catalog and product images
 
 ## First setup
 
@@ -32,22 +32,9 @@ npm install
 ```bash
 NEXT_PUBLIC_SUPABASE_URL=your-project-url
 NEXT_PUBLIC_SUPABASE_ANON_KEY=your-anon-key
-SUPABASE_SERVICE_ROLE_KEY=your-service-role-key
 ```
 
-6. Extract products from the Excel file:
-
-```bash
-npm run extract:products
-```
-
-7. Seed products into Supabase:
-
-```bash
-npm run seed:products
-```
-
-8. Start the website:
+6. Start the website:
 
 ```bash
 npm run dev

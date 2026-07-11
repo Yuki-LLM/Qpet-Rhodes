@@ -11,8 +11,7 @@ export default async function HomePage() {
   const profile = await getCurrentProfile();
   if (profile?.role === "admin") redirect("/admin");
 
-  const allProducts = await getProducts();
-  const popularProducts = allProducts.slice(0, 5);
+  const popularProducts = await getProducts({}, { limit: 5 });
 
   const categories = [
     { label: "Dog", href: "/products?petType=Dog", image: "/category-images/dog.png" },

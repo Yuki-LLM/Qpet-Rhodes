@@ -1,4 +1,3 @@
-import { sampleProducts } from "@/lib/data/sample-products";
 import { createSupabaseServerClient } from "@/lib/supabase/server";
 import type { Product } from "@/lib/types";
 
@@ -10,9 +9,16 @@ export type ProductFilters = {
   stock?: string;
 };
 
-function sortProducts(products: Product[]) {
-  return [...products].sort((a, b) => a.name.localeCompare(b.name));
-}
+type ProductQueryOptions = {
+  limit?: number;
+};
+
+type ProductPageOptions = {
+  page?: number;
+  pageSize?: number;
+};
+
+const PRODUCT_SELECT = "*, product_variants(*)";
 
 function productMatches(product: Product, filters: ProductFilters) {
   const q = filters.q?.trim().toLowerCase();
@@ -35,30 +41,88 @@ function productMatches(product: Product, filters: ProductFilters) {
   return true;
 }
 
-export async function getProducts(filters: ProductFilters = {}) {
+function applyProductFilters<T>(query: T, filters: ProductFilters) {
+  let nextQuery = query as any;
+
+  if (filters.q) nextQuery = nextQuery.ilike("name", `%${filters.q}%`);
+  if (filters.brand) nextQuery = nextQuery.eq("brand", filters.brand);
+  if (filters.category) nextQuery = nextQuery.eq("category", filters.category);
+  if (filters.petType) nextQuery = nextQuery.ilike("pet_type", `%${filters.petType}%`);
+
+  return nextQuery as T;
+}
+
+export async function getProducts(filters: ProductFilters = {}, options: ProductQueryOptions = {}) {
   const supabase = await createSupabaseServerClient();
 
   if (!supabase) {
-    return sortProducts(sampleProducts.filter((product) => productMatches(product, filters)));
+    return [];
   }
 
-  let query = supabase
+  let query = applyProductFilters(
+    supabase
     .from("products")
-    .select("*, product_variants(*)")
+    .select(PRODUCT_SELECT)
     .eq("is_active", true)
     .order("name", { ascending: true })
-    .order("sort_order", { referencedTable: "product_variants", ascending: true });
+      .order("sort_order", { referencedTable: "product_variants", ascending: true }),
+    filters
+  );
 
-  if (filters.q) query = query.ilike("name", `%${filters.q}%`);
-  if (filters.brand) query = query.eq("brand", filters.brand);
-  if (filters.category) query = query.eq("category", filters.category);
-  if (filters.petType) query = query.ilike("pet_type", `%${filters.petType}%`);
+  if (options.limit && !filters.stock) query = query.limit(options.limit);
 
   const { data, error } = await query;
   if (error || !data) return [];
 
   const products = data as Product[];
-  return products.filter((product) => productMatches(product, { stock: filters.stock }));
+  const filteredProducts = products.filter((product) => productMatches(product, { stock: filters.stock }));
+  return options.limit ? filteredProducts.slice(0, options.limit) : filteredProducts;
+}
+
+export async function getProductPage(filters: ProductFilters = {}, options: ProductPageOptions = {}) {
+  const page = Math.max(1, Number(options.page) || 1);
+  const pageSize = Math.max(1, Number(options.pageSize) || 48);
+  const supabase = await createSupabaseServerClient();
+
+  if (!supabase || filters.stock) {
+    const products = await getProducts(filters);
+    const total = products.length;
+    const start = (page - 1) * pageSize;
+
+    return {
+      products: products.slice(start, start + pageSize),
+      total,
+      page,
+      pageSize,
+      pageCount: Math.max(1, Math.ceil(total / pageSize))
+    };
+  }
+
+  const start = (page - 1) * pageSize;
+  const end = start + pageSize - 1;
+
+  const query = applyProductFilters(
+    supabase
+      .from("products")
+      .select(PRODUCT_SELECT, { count: "exact" })
+      .eq("is_active", true)
+      .order("name", { ascending: true })
+      .order("sort_order", { referencedTable: "product_variants", ascending: true })
+      .range(start, end),
+    filters
+  );
+
+  const { data, error, count } = await query;
+  const products = error || !data ? [] : (data as Product[]);
+  const total = count ?? products.length;
+
+  return {
+    products,
+    total,
+    page,
+    pageSize,
+    pageCount: Math.max(1, Math.ceil(total / pageSize))
+  };
 }
 
 export async function getBrandSummaries() {
@@ -86,7 +150,7 @@ export async function getProductBySlug(slug: string) {
   const supabase = await createSupabaseServerClient();
 
   if (!supabase) {
-    return sampleProducts.find((product) => product.slug === slug) ?? null;
+    return null;
   }
 
   const { data } = await supabase

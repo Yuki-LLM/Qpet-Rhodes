@@ -9,13 +9,27 @@ function uniqueValues(values: Array<string | null | undefined>) {
   return [...new Set(values.filter((value): value is string => Boolean(value)))].sort((a, b) => a.localeCompare(b));
 }
 
+function adminProductsHref(params: Record<string, string | undefined>, page: number) {
+  const nextParams = new URLSearchParams();
+
+  Object.entries(params).forEach(([key, value]) => {
+    if (value && key !== "page") nextParams.set(key, value);
+  });
+  if (page > 1) nextParams.set("page", String(page));
+
+  const query = nextParams.toString();
+  return query ? `/admin/products?${query}` : "/admin/products";
+}
+
 export default async function AdminProductsPage({
   searchParams
 }: {
-  searchParams: Promise<{ q?: string; brand?: string; category?: string; petType?: string; stock?: string }>;
+  searchParams: Promise<{ q?: string; brand?: string; category?: string; petType?: string; stock?: string; page?: string }>;
 }) {
   const params = await searchParams;
   const query = params.q?.trim().toLowerCase() ?? "";
+  const currentPage = Math.max(1, Number(params.page) || 1);
+  const pageSize = 24;
   const activeFilterCount = [params.brand, params.category, params.petType, params.stock].filter(Boolean).length + (query ? 1 : 0);
   const allProducts = await getAdminProducts();
   const brandOptions = uniqueValues(allProducts.map((product) => product.brand));
@@ -24,7 +38,7 @@ export default async function AdminProductsPage({
     ...allProducts.map((product) => product.pet_type),
     ...allProducts.flatMap((product) => product.pet_type?.split("/").map((item) => item.trim()) ?? [])
   ]);
-  const products = allProducts.filter((product) => {
+  const filteredProducts = allProducts.filter((product) => {
     const text = `${product.name} ${product.brand} ${product.category} ${product.pet_type ?? ""}`.toLowerCase();
     const matchesQuery = query ? text.includes(query) : true;
     const matchesBrand = params.brand ? product.brand === params.brand : true;
@@ -36,6 +50,12 @@ export default async function AdminProductsPage({
 
     return matchesQuery && matchesBrand && matchesCategory && matchesPetType && matchesStock;
   });
+  const pageCount = Math.max(1, Math.ceil(filteredProducts.length / pageSize));
+  const safePage = Math.min(currentPage, pageCount);
+  const startIndex = (safePage - 1) * pageSize;
+  const products = filteredProducts.slice(startIndex, startIndex + pageSize);
+  const showingStart = filteredProducts.length ? startIndex + 1 : 0;
+  const showingEnd = Math.min(startIndex + products.length, filteredProducts.length);
 
   return (
     <section className="grid gap-6">
@@ -72,7 +92,7 @@ export default async function AdminProductsPage({
               </Link>
             ) : null}
             <p className="rounded-full bg-qpet-soft px-3 py-1 text-sm font-bold text-qpet-dark">
-              {products.length} of {allProducts.length} products
+              {filteredProducts.length} of {allProducts.length} products
             </p>
           </div>
         </div>
@@ -332,6 +352,30 @@ export default async function AdminProductsPage({
           );
         })}
       </div>
+
+      {filteredProducts.length ? (
+        <div className="flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-line bg-white p-4 shadow-sm">
+          <p className="text-sm font-semibold text-slate-600">
+            Showing {showingStart}-{showingEnd} of {filteredProducts.length} products
+          </p>
+          <div className="flex gap-2">
+            <Link
+              href={adminProductsHref(params, safePage - 1)}
+              aria-disabled={safePage <= 1}
+              className={`btn-secondary px-4 py-2 ${safePage <= 1 ? "pointer-events-none opacity-50" : ""}`}
+            >
+              Previous
+            </Link>
+            <Link
+              href={adminProductsHref(params, safePage + 1)}
+              aria-disabled={safePage >= pageCount}
+              className={`btn-primary px-4 py-2 ${safePage >= pageCount ? "pointer-events-none opacity-50" : ""}`}
+            >
+              Next
+            </Link>
+          </div>
+        </div>
+      ) : null}
     </section>
   );
 }
