@@ -11,11 +11,9 @@ const navItems = [
     href: "/products?petType=Dog",
     key: "dog",
     menu: [
+      { label: "Collar, Harness & Leash", href: "/products?petType=Dog&category=Collar%2C+Harness+%26+Leash" },
       { label: "Dog Food", href: "/products?petType=Dog&category=Food" },
-      { label: "Dog Treats", href: "/products?petType=Dog&category=Treats" },
-      { label: "Dental Care", href: "/products?petType=Dog&category=Dental+Care" },
-      { label: "Grooming", href: "/products?petType=Dog&category=Grooming+%26+Coat+Care" },
-      { label: "Health Care", href: "/products?petType=Dog&category=Health+Care" }
+      { label: "Dog Treat", href: "/products?petType=Dog&category=Treats" }
     ]
   },
   {
@@ -24,10 +22,8 @@ const navItems = [
     key: "cat",
     menu: [
       { label: "Cat Food", href: "/products?petType=Cat&category=Food" },
-      { label: "Cat Treats", href: "/products?petType=Cat&category=Treats" },
       { label: "Cat Litter", href: "/products?petType=Cat&category=Cat+Litter+%26+Toilet" },
-      { label: "Dental Care", href: "/products?petType=Cat&category=Dental+Care" },
-      { label: "Supplements", href: "/products?petType=Cat&category=Supplements" }
+      { label: "Cat Treat", href: "/products?petType=Cat&category=Treats" }
     ]
   },
   {
@@ -35,11 +31,13 @@ const navItems = [
     href: "/products?category=Treats",
     key: "others",
     menu: [
-      { label: "Treats", href: "/products?category=Treats" },
-      { label: "Grooming", href: "/products?category=Grooming+%26+Coat+Care" },
+      { label: "Accessories", href: "/products?category=Accessories" },
+      { label: "Cleaning", href: "/products?category=Cleaning+%26+Odour+Control" },
       { label: "Dental Care", href: "/products?category=Dental+Care" },
-      { label: "Supplements", href: "/products?category=Supplements" },
-      { label: "Cleaning", href: "/products?category=Cleaning+%26+Odour+Control" }
+      { label: "Grooming", href: "/products?category=Grooming+%26+Coat+Care" },
+      { label: "Health Care", href: "/products?category=Health+Care" },
+      { label: "Supplement", href: "/products?category=Supplements" },
+      { label: "Toy", href: "/products?category=Toys" }
     ]
   },
   { label: "Brands", href: "/brands", key: "brands" }

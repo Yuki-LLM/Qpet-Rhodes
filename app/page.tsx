@@ -86,7 +86,7 @@ export default async function HomePage() {
                 alt={category.label}
                 width={220}
                 height={180}
-                className="absolute bottom-0 left-1 h-32 w-40 object-contain opacity-80 mix-blend-multiply transition group-hover:scale-105 group-hover:opacity-95"
+                className="absolute left-3 top-1/2 h-32 w-40 -translate-y-1/2 object-contain opacity-80 mix-blend-multiply transition group-hover:scale-105 group-hover:opacity-95"
               />
               <div className="relative ml-auto grid w-32 gap-3 pt-5">
                 <h3 className="text-xl font-bold">{category.label}</h3>
