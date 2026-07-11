@@ -38,7 +38,7 @@ export function ProductCard({ product, compact = false }: { product: Product; co
             alt={product.name}
             fill
             sizes="(max-width: 640px) 50vw, (max-width: 1024px) 50vw, 25vw"
-            className="object-contain p-4 transition duration-300 group-hover:scale-105 sm:p-7"
+            className="object-contain p-2 transition duration-300 group-hover:scale-105 sm:p-7"
           />
         ) : (
           <div className="flex h-full items-center justify-center text-sm text-slate-500">No image</div>
