@@ -66,3 +66,27 @@ export async function signOut() {
   revalidatePath("/", "layout");
   redirect("/");
 }
+
+export async function updateProfile(formData: FormData) {
+  const supabase = await createSupabaseServerClient();
+  if (!supabase) return { status: "error" as const, message: "Supabase is not connected yet." };
+
+  const {
+    data: { user }
+  } = await supabase.auth.getUser();
+
+  if (!user) return { status: "error" as const, message: "Please sign in first." };
+
+  const fullName = String(formData.get("full_name") ?? "").trim();
+  const phone = String(formData.get("phone") ?? "").trim();
+
+  const { error } = await supabase
+    .from("profiles")
+    .upsert({ id: user.id, full_name: fullName, phone }, { onConflict: "id" });
+
+  if (error) return { status: "error" as const, message: "Could not save profile. Please try again." };
+
+  revalidatePath("/account");
+  revalidatePath("/checkout");
+  return { status: "success" as const, message: "Profile saved." };
+}

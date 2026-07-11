@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ProfileForm } from "@/components/profile-form";
 import { cancelCustomerOrder } from "@/lib/actions/shop";
 import { getCustomerOrders } from "@/lib/data/account";
 import { getCurrentProfile, getCurrentUser } from "@/lib/supabase/server";
@@ -25,20 +26,8 @@ export default async function AccountPage() {
     <main className="container-shell grid gap-8 py-10">
       <section className="rounded-2xl border border-line bg-white p-6 shadow-sm">
         <h1 className="text-2xl font-bold">Account</h1>
-        <div className="mt-5 grid gap-3 text-sm text-stone-700">
-          <p>
-            <span className="font-semibold">Email:</span> {user.email}
-          </p>
-          <p>
-            <span className="font-semibold">Name:</span> {profile?.full_name ?? "Not set"}
-          </p>
-          <p>
-            <span className="font-semibold">Phone:</span> {profile?.phone ?? "Not set"}
-          </p>
-          <p>
-            <span className="font-semibold">Role:</span> {profile?.role ?? "customer"}
-          </p>
-        </div>
+        <p className="mt-2 text-sm text-slate-600">Update your contact details for pickup reservations.</p>
+        <ProfileForm email={user.email} role={profile?.role} fullName={profile?.full_name} phone={profile?.phone} />
       </section>
 
       <section className="rounded-2xl border border-line bg-white p-6 shadow-sm">

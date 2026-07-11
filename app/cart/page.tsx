@@ -1,9 +1,10 @@
 import Link from "next/link";
 import Image from "next/image";
+import { CartQuantityControl } from "@/components/cart-quantity-control";
 import { EmptyState } from "@/components/empty-state";
 import { getCartItems } from "@/lib/data/account";
 import { formatMoney, getVariantPrice } from "@/lib/utils/format";
-import { removeCartItem, updateCartItem } from "@/lib/actions/shop";
+import { removeCartItem } from "@/lib/actions/shop";
 
 export default async function CartPage() {
   const items = await getCartItems();
@@ -43,11 +44,7 @@ export default async function CartPage() {
                   </div>
                 </div>
                 <div className="flex items-center gap-2">
-                  <form action={updateCartItem} className="flex items-center gap-2">
-                    <input type="hidden" name="cart_item_id" value={item.id} />
-                    <input className="field w-20" type="number" min="1" name="quantity" defaultValue={item.quantity} />
-                    <button className="btn-secondary">Update</button>
-                  </form>
+                  <CartQuantityControl cartItemId={item.id} quantity={item.quantity} />
                   <form action={removeCartItem}>
                     <input type="hidden" name="cart_item_id" value={item.id} />
                     <button className="btn-secondary">Remove</button>
