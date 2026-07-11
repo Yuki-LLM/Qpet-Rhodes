@@ -6,7 +6,7 @@ import { useState } from "react";
 
 const navItems = [
   { label: "Home", href: "/", key: "home" },
-  { label: "Sale", href: "/products?stock=In+Stock", key: "sale" },
+  { label: "Sale", href: "/products?sale=true", key: "sale" },
   {
     label: "Dog",
     href: "/products?petType=Dog",
@@ -49,7 +49,7 @@ function getActiveKey(pathname: string, params: URLSearchParams) {
   if (pathname === "/") return "home";
   if (pathname !== "/products") return "";
   if (params.get("brand")) return "brands";
-  if (params.get("stock") === "In Stock") return "sale";
+  if (params.get("sale") === "true") return "sale";
   if (params.get("petType") === "Dog") return "dog";
   if (params.get("petType") === "Cat") return "cat";
   if (params.get("category")) return "others";

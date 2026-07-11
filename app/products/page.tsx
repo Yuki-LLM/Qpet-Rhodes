@@ -46,11 +46,11 @@ function getPageHeading(params: Record<string, string | undefined>) {
     };
   }
 
-  if (params.stock === "In Stock") {
+  if (params.sale === "true") {
     return {
       eyebrow: "Sale",
       title: "Sale Items",
-      body: "Browse available deals and reserve items for pickup."
+      body: "Browse products with active sale prices and reserve items for pickup."
     };
   }
 

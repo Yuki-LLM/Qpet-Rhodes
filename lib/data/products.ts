@@ -7,6 +7,7 @@ export type ProductFilters = {
   category?: string;
   petType?: string;
   stock?: string;
+  sale?: string;
 };
 
 type ProductQueryOptions = {
@@ -23,6 +24,7 @@ const PRODUCT_SELECT = "*, product_variants(*)";
 function productMatches(product: Product, filters: ProductFilters) {
   const q = filters.q?.trim().toLowerCase();
   const stock = filters.stock?.trim();
+  const sale = filters.sale?.trim();
 
   if (q) {
     const text = `${product.name} ${product.brand} ${product.category} ${product.description ?? ""}`.toLowerCase();
@@ -36,6 +38,11 @@ function productMatches(product: Product, filters: ProductFilters) {
   if (stock) {
     const hasStock = product.product_variants?.some((variant) => variant.stock_status === stock);
     if (!hasStock) return false;
+  }
+
+  if (sale === "true") {
+    const hasSale = product.product_variants?.some((variant) => variant.sale_price !== null && variant.sale_price !== undefined);
+    if (!hasSale) return false;
   }
 
   return true;
@@ -69,13 +76,13 @@ export async function getProducts(filters: ProductFilters = {}, options: Product
     filters
   );
 
-  if (options.limit && !filters.stock) query = query.limit(options.limit);
+  if (options.limit && !filters.stock && filters.sale !== "true") query = query.limit(options.limit);
 
   const { data, error } = await query;
   if (error || !data) return [];
 
   const products = data as Product[];
-  const filteredProducts = products.filter((product) => productMatches(product, { stock: filters.stock }));
+  const filteredProducts = products.filter((product) => productMatches(product, { stock: filters.stock, sale: filters.sale }));
   return options.limit ? filteredProducts.slice(0, options.limit) : filteredProducts;
 }
 
@@ -84,7 +91,7 @@ export async function getProductPage(filters: ProductFilters = {}, options: Prod
   const pageSize = Math.max(1, Number(options.pageSize) || 48);
   const supabase = await createSupabaseServerClient();
 
-  if (!supabase || filters.stock) {
+  if (!supabase || filters.stock || filters.sale === "true") {
     const products = await getProducts(filters);
     const total = products.length;
     const start = (page - 1) * pageSize;

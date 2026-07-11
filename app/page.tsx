@@ -96,7 +96,7 @@ export default async function HomePage() {
               </div>
             </Link>
           ))}
-          <Link href="/products?stock=In+Stock" className="grid min-h-36 content-center rounded-2xl bg-qpet p-8 text-white shadow-sm">
+          <Link href="/products?sale=true" className="grid min-h-36 content-center rounded-2xl bg-qpet p-8 text-white shadow-sm">
             <Percent size={44} />
             <h3 className="mt-2 text-xl font-bold">Sale</h3>
             <span className="mt-2 inline-flex items-center gap-2 font-semibold">
