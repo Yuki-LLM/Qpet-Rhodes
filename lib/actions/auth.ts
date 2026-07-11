@@ -80,11 +80,14 @@ export async function updateProfile(formData: FormData) {
   const fullName = String(formData.get("full_name") ?? "").trim();
   const phone = String(formData.get("phone") ?? "").trim();
 
-  const { error } = await supabase
-    .from("profiles")
-    .upsert({ id: user.id, full_name: fullName, phone }, { onConflict: "id" });
+  const { error } = await supabase.from("profiles").update({ full_name: fullName, phone }).eq("id", user.id);
 
-  if (error) return { status: "error" as const, message: "Could not save profile. Please try again." };
+  if (error) {
+    return {
+      status: "error" as const,
+      message: `Could not save profile: ${error.message}`
+    };
+  }
 
   revalidatePath("/account");
   revalidatePath("/checkout");

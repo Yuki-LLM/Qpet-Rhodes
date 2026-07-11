@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Suspense } from "react";
-import { Boxes, ClipboardList, Heart, HeartPulse, Home, LayoutDashboard, LogOut, Search, ShoppingCart, Store, UserRound } from "lucide-react";
+import { Boxes, ClipboardList, Heart, HeartPulse, Home, LayoutDashboard, LogOut, Search, ShoppingCart, UserRound } from "lucide-react";
 import { signOut } from "@/lib/actions/auth";
 import { HeaderNav } from "@/components/header-nav";
 import { siteConfig } from "@/lib/config";
@@ -163,10 +163,6 @@ export async function Header() {
           <Home size={20} />
           Home
         </Link>
-        <Link href="/products" className="grid justify-items-center gap-1 rounded-xl px-2 py-1.5 hover:bg-qpet-soft hover:text-qpet-dark">
-          <Store size={20} />
-          Shop
-        </Link>
         <Link href="/wishlist" className="grid justify-items-center gap-1 rounded-xl px-2 py-1.5 hover:bg-qpet-soft hover:text-qpet-dark">
           <Heart size={20} />
           Wishlist
@@ -174,6 +170,10 @@ export async function Header() {
         <Link href="/cart" className="grid justify-items-center gap-1 rounded-xl px-2 py-1.5 hover:bg-qpet-soft hover:text-qpet-dark">
           <ShoppingCart size={20} />
           Cart
+        </Link>
+        <Link href="/orders" className="grid justify-items-center gap-1 rounded-xl px-2 py-1.5 hover:bg-qpet-soft hover:text-qpet-dark">
+          <ClipboardList size={20} />
+          Order
         </Link>
         <Link href={user ? "/account" : "/login"} className="grid justify-items-center gap-1 rounded-xl px-2 py-1.5 hover:bg-qpet-soft hover:text-qpet-dark">
           <UserRound size={20} />
